@@ -76,26 +76,79 @@ H0=[
 ],
 Wh=[
   {
-    id:108,
-    title:"Cracking the Quantum Code: Découvrons la révolution quantique !",
-    subtitle:"Discovering the Quantum Computing Revolution",
-    event:"6+ Conferences (BreizhCamp, DevFest Toulouse, Voxxed Days, Riviera DEV, Capitale Dev, Polycloud...)",
-    date:"2024",
+    id:102,
+    title:"Des MP3 d'eMule au web décentralisé : la folle histoire du Peer-to-Peer",
+    subtitle:"From eMule MP3s to the Decentralized Web: The Crazy History of Peer-to-Peer",
+    event:"Capitole du Libre & Codeurs en Seine",
+    date:"Nov 2026",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"How Napster, eMule, and BitTorrent game theory accidentally engineered the backbone of the modern distributed web — from Kademlia DHTs and NAT traversal (STUN/TURN/ICE) to IPFS and WebRTC.",
+    videoUrl:"#",
+    slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/",
+    repoUrl:"https://github.com/laurentgrangeau/conf-p2p",
+    sessions:[
+      {event:"Capitole du Libre 2026",date:"Nov 2026",slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/"},
+      {event:"Codeurs en Seine 2026",date:"Nov 2026",slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/"}
+    ]
+  },
+  {
+    id:103,
+    title:"Sécuriser les Agents GenAI et l'exécution de code arbitraire avec Agent Sandbox sur Kubernetes",
+    subtitle:"Detonation & Isolation: Hardening GKE Runtimes for Code-Executing Agents / Sandboxing Autonomous AI",
+    event:"Capitole du Libre, Cloud Native AI Summit & KubeCon Europe",
+    date:"Oct - Nov 2026",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
     lang:"FR / EN",
-    color:"bg-purple-600",
-    description:"Demystifying qubits, quantum superposition, entanglement, quantum gates, Shor's algorithm, and post-quantum cryptography for software engineers and architects.",
-    videoUrl:"https://www.youtube.com/watch?v=dygqMcWaR5I",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-indigo-600",
+    description:"Deep dive into isolating autonomous AI agents and untrusted LLM-generated code execution on Kubernetes using Agent Sandbox, gVisor, Kata Containers, and sub-second microVM orchestration.",
+    videoUrl:"#",
+    slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/",
+    sessions:[
+      {event:"Capitole du Libre 2026",date:"Nov 2026",slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/"},
+      {event:"Cloud Native AI Summit Europe",date:"Oct 2026"},
+      {event:"KubeCon + CloudNativeCon Europe CFP",date:"Oct 2026"}
+    ]
+  },
+  {
+    id:111,
+    title:"Navigating the Agentic Stack on Kubernetes: A Layer-by-Layer Architectural Guide",
+    subtitle:"Architectural Blueprint for Multi-Agent AI Systems on Kubernetes",
+    event:"Cloud Native AI Summit & KubeCon Europe",
+    date:"Oct 2026",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"EN",
+    color:"bg-indigo-600",
+    description:"A complete architectural blueprint for building, isolating, scaling, and observing stateful multi-agent AI systems on top of Kubernetes.",
+    videoUrl:"#",
     slidesUrl:"#",
     sessions:[
-      {event:"Voxxed Days Luxembourg",date:"2024",videoUrl:"https://www.youtube.com/watch?v=dygqMcWaR5I"},
-      {event:"GDG Strasbourg / Capitale Dev",date:"2024",videoUrl:"https://www.youtube.com/watch?v=lEqBOsunRmQ"},
-      {event:"BreizhCamp",date:"2024",videoUrl:"https://www.youtube.com/watch?v=W7sqLzt6UJM"},
-      {event:"Riviera DEV",date:"2024",videoUrl:"https://www.youtube.com/watch?v=7hbaL_yLSJI"},
-      {event:"DevFest Toulouse",date:"2024",videoUrl:"https://www.youtube.com/watch?v=syhDBXDbNJY"},
-      {event:"Polycloud",date:"2024",videoUrl:"https://www.youtube.com/watch?v=dAnGCEvOGBI"},
-      {event:"Programmez! DevCon",date:"2024"}
+      {event:"Cloud Native AI Summit Europe",date:"Oct 2026"},
+      {event:"KubeCon + CloudNativeCon Europe CFP",date:"Oct 2026"}
+    ]
+  },
+  {
+    id:107,
+    title:"Scaling AI: Architecting High-Throughput, Low-Latency Inference on Kubernetes",
+    subtitle:"Maîtrisez l'inférence à l'échelle sur GKE",
+    event:"Cloud Native AI Summit, KubeCon Europe & KCD Suisse Romande",
+    date:"2025 - 2026",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"EN / FR",
+    color:"bg-indigo-600",
+    description:"Optimizing Kubernetes and GKE infrastructure for production LLM serving at scale with vLLM, GPU partitioning, KV cache routing, and inference gateway autoscaling.",
+    videoUrl:"#",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Cloud Native AI Summit Europe",date:"Oct 2026"},
+      {event:"KubeCon + CloudNativeCon Europe",date:"Oct 2026"},
+      {event:"KCD Suisse Romande 2025",date:"Sep 2025"}
     ]
   },
   {
@@ -114,217 +167,7 @@ Wh=[
     slidesUrl:"https://laurentgrangeau.github.io/conf-scion/",
     repoUrl:"https://github.com/laurentgrangeau/conf-scion",
     sessions:[
-      {event:"Interactive Web Deck",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/conf-scion/"}
-    ]
-  },
-  {
-    id:102,
-    title:"Des MP3 d'eMule au web décentralisé : la folle histoire du Peer-to-Peer",
-    subtitle:"From eMule MP3s to the Decentralized Web: The Crazy History of Peer-to-Peer",
-    event:"Codeurs en Seine & Capitole du Libre",
-    date:"Nov 2026",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR",
-    color:"bg-purple-600",
-    description:"How Napster, eMule, and BitTorrent game theory accidentally engineered the backbone of the modern distributed web — from Kademlia DHTs and NAT traversal (STUN/TURN/ICE) to IPFS and WebRTC.",
-    videoUrl:"#",
-    slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/",
-    repoUrl:"https://github.com/laurentgrangeau/conf-p2p",
-    sessions:[
-      {event:"Codeurs en Seine",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/"},
-      {event:"Capitole du Libre",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/conf-p2p/"}
-    ]
-  },
-  {
-    id:105,
-    title:"Un voyage dans le temps sur le passé, le présent et l'avenir de la protection de la mémoire",
-    subtitle:"An Interactive History of Memory Protection (BSides)",
-    event:"BSides & Touraine Tech",
-    date:"2025 - 2026",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR / EN",
-    color:"bg-red-600",
-    description:"A time-travel journey from the 1960s to modern CPU/GPU architectures exploring segmentation, virtual memory paging, ASLR, DEP/NX bits, stack canaries, and hardware sandboxing.",
-    videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",
-    slidesUrl:"https://laurentgrangeau.github.io/bsides/",
-    repoUrl:"https://github.com/laurentgrangeau/bsides",
-    sessions:[
-      {event:"Touraine Tech",date:"2025",videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc"},
-      {event:"BSides (Interactive Timeline)",date:"2025 - 2026",slidesUrl:"https://laurentgrangeau.github.io/bsides/"}
-    ]
-  },
-  {
-    id:103,
-    title:"Sécuriser les Agents GenAI et l'exécution de code arbitraire avec Agent Sandbox sur Kubernetes",
-    subtitle:"Detonation & Isolation: Hardening GKE Runtimes for Code-Executing Agents",
-    event:"Capitole du Libre & Cloud Native AI",
-    date:"2026",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR / EN",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-indigo-600",
-    description:"Deep dive into isolating autonomous AI agents and untrusted LLM-generated code execution on Kubernetes using Agent Sandbox, gVisor, Kata Containers, and microVMs.",
-    videoUrl:"#",
-    slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/",
-    sessions:[
-      {event:"Capitole du Libre",date:"2026",slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/"},
-      {event:"Cloud Native AI / KubeCon CFP",date:"2026"}
-    ]
-  },
-  {
-    id:104,
-    title:"MCP et A2A : Révolutionner l'Interconnexion et la Collaboration des Agents IA",
-    subtitle:"MCP & A2A: Revolutionizing AI Agent Interconnection and Collaboration",
-    event:"DevFest Toulouse & Devoxx Morocco",
-    date:"Nov 2025",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR / EN",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-blue-500",
-    description:"Exploring Anthropic's Model Context Protocol (MCP) and Google's Agent2Agent (A2A) protocol to build interoperable, secure, and collaborative multi-agent AI architectures.",
-    videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA",
-    slidesUrl:"#",
-    sessions:[
-      {event:"DevFest Toulouse",date:"2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"},
-      {event:"Devoxx Morocco",date:"2025"}
-    ]
-  },
-  {
-    id:106,
-    title:"Rafraîchis ta prod avec Kro (Kube Resource Orchestrator)",
-    subtitle:"Refresh your production with Kro on Kubernetes",
-    event:"Cloud Nord x Alpes & DevQuest",
-    date:"2025 - 2026",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-blue-600",
-    description:"Simplifying complex Kubernetes resource orchestration and composing custom platform APIs declaratively using ResourceGraphDefinitions with Kro.",
-    videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Cloud Nord x Alpes",date:"2025",videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs"},
-      {event:"DevQuest",date:"2025"}
-    ]
-  },
-  {
-    id:109,
-    title:"Kueue : Kubernetes-native Job Queueing",
-    subtitle:"Batch, AI/ML & HPC Job Queueing on Kubernetes",
-    event:"Voxxed Days Luxembourg & France DevOps",
-    date:"2024",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"FR / EN",
-    color:"bg-blue-600",
-    description:"Managing batch, AI/ML training, and HPC workloads on Kubernetes with quotas, priorities, preemption, and fair resource sharing using Kubernetes-native Kueue.",
-    videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Voxxed Days Luxembourg",date:"2024",videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY"},
-      {event:"France DevOps",date:"2024",videoUrl:"https://www.youtube.com/watch?v=uFkHbJu0dQI"}
-    ]
-  },
-  {
-    id:120,
-    title:"Maximisez la productivité des développeurs avec Backstage et le Platform Engineering",
-    subtitle:"Maximize Developer Productivity with Backstage & Internal Developer Portals",
-    event:"Cloud Nord x Alpes & Open Source Experience",
-    date:"2024",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-indigo-600",
-    description:"Diving into Platform Engineering to build self-service Golden Paths and an Internal Developer Portal (IDP) with CNCF Backstage.",
-    videoUrl:"https://www.youtube.com/watch?v=IWhIXlVsRls",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Cloud Nord x Alpes",date:"2024",videoUrl:"https://www.youtube.com/watch?v=IWhIXlVsRls"},
-      {event:"Open Source Experience",date:"2024",videoUrl:"https://www.youtube.com/watch?v=LfTQITrK4Fw"}
-    ]
-  },
-  {
-    id:110,
-    title:"Back to basics - J'ai une clé SSH, et maintenant ?",
-    subtitle:"Back to Basics: I Have an SSH Key, Now What?",
-    event:"Touraine Tech, Poitou JUG, JUG SummerCamp & Sunny Tech",
-    date:"2024",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR",
-    coSpeakers:"with Ludovic Piot",
-    color:"bg-cyan-600",
-    description:"Practical deep dive into SSH key cryptography, ssh-agent forwarding pitfalls, bastion hosts, SSH certificate authorities, and hardware security keys.",
-    videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Touraine Tech",date:"2024",videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos"},
-      {event:"Poitou JUG",date:"2024",videoUrl:"https://www.youtube.com/watch?v=MtzTMJqH01U"},
-      {event:"JUG SummerCamp",date:"2024"},
-      {event:"Sunny Tech",date:"2024"}
-    ]
-  },
-  {
-    id:118,
-    title:"(con)test-és et (dé)test-és MAIS (at)test-ables ? Les tests techniques dans le recrutement tech",
-    subtitle:"Technical Assessments in Tech Hiring in the Age of AI",
-    event:"Touraine Tech, Cloud Nord x Alpes & Cloud Sud",
-    date:"2024 - 2025",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"FR",
-    coSpeakers:"with Magali de Labareyre",
-    color:"bg-purple-600",
-    description:"Rethinking technical coding interviews and architecture assessments so they remain relevant, fair, and meaningful in the era of AI coding assistants.",
-    videoUrl:"https://www.youtube.com/watch?v=0xENYnx_N4I",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Touraine Tech",date:"2025",videoUrl:"https://www.youtube.com/watch?v=0xENYnx_N4I"},
-      {event:"Cloud Nord x Alpes",date:"2024",videoUrl:"https://www.youtube.com/watch?v=8ApsBD0-z5w"},
-      {event:"Cloud Sud",date:"2024",videoUrl:"https://www.youtube.com/watch?v=1MYVSmPWnKA"}
-    ]
-  },
-  {
-    id:1,
-    title:"GitOps: A Slightly Realistic Situation on Kubernetes",
-    subtitle:"Dans le *-as-code, master/HEAD est-il vraiment une option ? Batman semble convaincu du contraire.",
-    event:"KubeCon + CloudNativeCon Europe & BreizhCamp",
-    date:"2022",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"EN / FR",
-    coSpeakers:"with Ludovic Piot",
-    color:"bg-blue-600",
-    description:"Exploring real-world GitOps implementations using FluxCD and ArgoCD, multi-environment promotion strategies, and why tracking master/HEAD in production is an anti-pattern.",
-    videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI",
-    slidesUrl:"#",
-    sessions:[
-      {event:"KubeCon Europe",date:"2022",videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI"},
-      {event:"BreizhCamp",date:"2022",videoUrl:"https://www.youtube.com/watch?v=FVOgb--QOhA"}
-    ]
-  },
-  {
-    id:5,
-    title:"Zero Trust : The New Normal ! (Le modèle Zero Trust dans Kubernetes)",
-    subtitle:"Implementing Zero Trust Security in Cloud-Native Architectures",
-    event:"Devoxx France",
-    date:"Apr 2022",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-red-600",
-    description:"Implementing Zero Trust security principles, BeyondCorp identity-aware access, workload identity, network policies, and mTLS in modern Kubernetes environments.",
-    videoUrl:"https://www.youtube.com/watch?v=VNmf1Wz16uk",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Devoxx France",date:"2022",videoUrl:"https://www.youtube.com/watch?v=VNmf1Wz16uk"}
+      {event:"Tech Conferences 2026 (Interactive Web Deck)",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/conf-scion/"}
     ]
   },
   {
@@ -342,8 +185,85 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20",
     slidesUrl:"#",
     sessions:[
-      {event:"Les Filles et Les Garçons de la Tech",date:"2025",videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20"},
-      {event:"WAX Conf",date:"2026"}
+      {event:"WAX Conf 2026",date:"Jan 2026"},
+      {event:"Les Filles et Les Garçons de la Tech",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20"}
+    ]
+  },
+  {
+    id:105,
+    title:"Un voyage dans le temps sur le passé, le présent et l'avenir de la protection de la mémoire",
+    subtitle:"An Interactive History of Memory Protection (BSides)",
+    event:"BSides & Touraine Tech",
+    date:"2025 - 2026",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR / EN",
+    color:"bg-red-600",
+    description:"A time-travel journey from the 1960s to modern CPU/GPU architectures exploring segmentation, virtual memory paging, ASLR, DEP/NX bits, stack canaries, and hardware sandboxing.",
+    videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",
+    slidesUrl:"https://laurentgrangeau.github.io/bsides/",
+    repoUrl:"https://github.com/laurentgrangeau/bsides",
+    sessions:[
+      {event:"BSides (Interactive Web Timeline)",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/bsides/"},
+      {event:"Touraine Tech 2025",date:"Feb 2025",videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",slidesUrl:"https://laurentgrangeau.github.io/bsides/"}
+    ]
+  },
+  {
+    id:104,
+    title:"MCP et A2A : Révolutionner l'Interconnexion et la Collaboration des Agents IA",
+    subtitle:"Standards et agents IA : un tour d'horizon de MCP, A2A, ADK",
+    event:"DevFest Toulouse, Devoxx Morocco & Devoxx France",
+    date:"Apr - Nov 2025",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR / EN",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-blue-500",
+    description:"Exploring Anthropic's Model Context Protocol (MCP), Google's Agent2Agent (A2A) protocol, and Agent Development Kit (ADK) to build interoperable, secure, and collaborative multi-agent AI architectures.",
+    videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevFest Toulouse 2025",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"},
+      {event:"Devoxx Morocco 2025",date:"Nov 2025"},
+      {event:"Devoxx France 2025 (MCP, A2A & ADK)",date:"Apr 2025",videoUrl:"https://www.youtube.com/watch?v=KvJ2OfLW7PE"}
+    ]
+  },
+  {
+    id:106,
+    title:"Rafraîchis ta prod avec Kro (Kube Resource Orchestrator)",
+    subtitle:"Refresh your production with Kro on Kubernetes",
+    event:"DevQuest, Cloud Nord x Alpes & DevFest Toulouse",
+    date:"May - Jun 2025",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-blue-600",
+    description:"Simplifying complex Kubernetes resource orchestration and composing custom platform APIs declaratively using ResourceGraphDefinitions with Kro.",
+    videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevQuest 2025",date:"Jun 2025"},
+      {event:"Cloud Nord x Alpes 2025",date:"May 2025",videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs"},
+      {event:"DevFest Toulouse CFP",date:"May 2025"}
+    ]
+  },
+  {
+    id:115,
+    title:"Libérer la puissance des systèmes multi-agents avec Flowise",
+    subtitle:"Unleashing Multi-Agent Systems with Flowise",
+    event:"DevFest Toulouse & Tech Conferences",
+    date:"May 2025",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-cyan-600",
+    description:"Designing, prototyping, and orchestrating complex multi-agent RAG and tool-calling workflows visually using Flowise and LangChain.",
+    videoUrl:"#",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevFest Toulouse 2025",date:"May 2025"}
     ]
   },
   {
@@ -351,7 +271,7 @@ Wh=[
     title:"IA et Recrutement : un match parfait ou une partie de cache-cache avec les biais ?",
     subtitle:"AI & Tech Recruitment: Perfect Match or Hide-and-Seek with Bias?",
     event:"Les Filles et Les Garçons de la Tech & MiXiT",
-    date:"2025",
+    date:"Apr - Nov 2025",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
     lang:"FR",
@@ -361,219 +281,9 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU",
     slidesUrl:"#",
     sessions:[
-      {event:"Les Filles et Les Garçons de la Tech",date:"2025",videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU"},
-      {event:"MiXiT",date:"2025"}
+      {event:"Les Filles et Les Garçons de la Tech",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU"},
+      {event:"MiXiT 2025",date:"Apr 2025"}
     ]
-  },
-  {
-    id:119,
-    title:"Federated Learning : Une nouvelle ère pour l'IA collaborative respectueuse de la vie privée",
-    subtitle:"Federated Learning: Privacy-Preserving Collaborative AI",
-    event:"Poitou JUG & JUG SummerCamp",
-    date:"2023 - 2024",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR",
-    color:"bg-cyan-600",
-    description:"Training machine learning models collaboratively across decentralized edge devices and silos without centralizing sensitive user data.",
-    videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Poitou JUG",date:"2024",videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY"},
-      {event:"JUG SummerCamp",date:"2023"}
-    ]
-  },
-  {
-    id:123,
-    title:"AWS vs GCP vs Azure : Le comparatif architectural",
-    subtitle:"AWS vs GCP vs Azure: Cloud Architecture Comparison",
-    event:"Devoxx France & Cloud Sud",
-    date:"2021",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault & Olivier Dupré",
-    color:"bg-blue-600",
-    description:"An objective, architectural comparison of the three hyperscalers across global networking, IAM, compute, Kubernetes, serverless, and storage.",
-    videoUrl:"https://www.youtube.com/watch?v=adUIcWiHT-U",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Devoxx France",date:"2021",videoUrl:"https://www.youtube.com/watch?v=adUIcWiHT-U"},
-      {event:"Cloud Sud",date:"2021",videoUrl:"https://www.youtube.com/watch?v=S_5J4emut6Q"}
-    ]
-  },
-  {
-    id:124,
-    title:"FinOps : et si on arrêtait de balancer l'argent par les fenêtres ?",
-    subtitle:"FinOps: Stopping Cloud Waste and Optimizing Cloud Spend",
-    event:"France DevOps",
-    date:"2021",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault & Olivier Dupré",
-    color:"bg-orange-600",
-    description:"Bringing financial accountability to the variable spend model of the cloud through FinOps culture, cost allocation, rightsizing, and commitment strategies.",
-    videoUrl:"https://www.youtube.com/watch?v=EAYPrS-ppgE",
-    slidesUrl:"#",
-    sessions:[
-      {event:"France DevOps",date:"2021",videoUrl:"https://www.youtube.com/watch?v=EAYPrS-ppgE"}
-    ]
-  },
-  {
-    id:6,
-    title:"Le chiffrement symétrique de A à Z",
-    subtitle:"Symmetric Encryption from A to Z",
-    event:"Devoxx France",
-    date:"2021",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR",
-    coSpeakers:"with Mickael Roger",
-    color:"bg-indigo-600",
-    description:"A comprehensive dive into symmetric cryptography primitives, AES, block cipher modes of operation (CBC, GCM), key management (KMS), and envelope encryption.",
-    videoUrl:"https://www.youtube.com/watch?v=J2uiajALYio",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Devoxx France",date:"2021",videoUrl:"https://www.youtube.com/watch?v=J2uiajALYio"}
-    ]
-  },
-  {
-    id:136,
-    title:"#serverless - Mettez-le en œuvre dans votre entreprise & OpenFaaS sur Docker et Kubernetes",
-    subtitle:"Enterprise Serverless Adoption & FaaS Frameworks on Kubernetes",
-    event:"Devoxx France, Voxxed Days Luxembourg, BreizhCamp, Capitole du Libre & DevOps D-Day",
-    date:"2018 - 2020",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"FR / EN",
-    coSpeakers:"with Ludovic Piot & Adrien Blind",
-    color:"bg-purple-600",
-    description:"Comparing open-source FaaS frameworks on Docker and Kubernetes (OpenFaaS, Knative, Kubeless) and multi-year enterprise serverless feedback.",
-    videoUrl:"https://www.youtube.com/watch?v=xycu-tiRTms",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Devoxx France",date:"2019",videoUrl:"https://www.youtube.com/watch?v=xycu-tiRTms"},
-      {event:"Voxxed Days (2 ans de REX)",date:"2020",videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0"},
-      {event:"Voxxed Days (FaaS & Furious)",date:"2019",videoUrl:"https://www.youtube.com/watch?v=zyDDOWRnjKw"},
-      {event:"BreizhCamp (#serverless)",date:"2019",videoUrl:"https://www.youtube.com/watch?v=gdaxX3OqfFw"},
-      {event:"Capitole du Libre",date:"2019",videoUrl:"https://www.youtube.com/watch?v=x6o5aYvqBpA"},
-      {event:"BreizhCamp (OpenFaaS)",date:"2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"},
-      {event:"DevOps D-Day (OpenFaaS)",date:"2018",videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI"}
-    ]
-  },
-  {
-    id:138,
-    title:"Microservices de la bonne façon : une introduction à Istio",
-    subtitle:"Microservices the Right Way: An Introduction to Istio Service Mesh",
-    event:"ContainerDays, APIdays Paris & Sunny Tech",
-    date:"2018",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"EN / FR",
-    color:"bg-blue-600",
-    description:"Introducing Service Mesh architecture with Istio and Envoy on Kubernetes for traffic management, canary releases, distributed tracing, and mTLS security.",
-    videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc",
-    slidesUrl:"https://www.slideshare.net/laurentgrangeau",
-    sessions:[
-      {event:"ContainerDays",date:"2018",videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc"},
-      {event:"APIdays Paris",date:"2018",videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8"},
-      {event:"Sunny Tech",date:"2018",slidesUrl:"https://www.slideshare.net/laurentgrangeau"}
-    ]
-  },
-  {
-    id:129,
-    title:"cgroups v2 : Quoi de neuf du côté des containers ?",
-    subtitle:"Linux Kernel cgroups v2: What's New for Containers?",
-    event:"Paris Container Day",
-    date:"2020",
-    type:"Conference",
-    category:"Security, Network & Systems",
-    lang:"FR",
-    color:"bg-purple-600",
-    description:"Deep dive into the Linux kernel's unified control group hierarchy (cgroups v2), resource isolation improvements, pressure stall information (PSI), and rootless containers.",
-    videoUrl:"https://www.youtube.com/watch?v=nHe1dKIbqLo",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Paris Container Day",date:"2020",videoUrl:"https://www.youtube.com/watch?v=nHe1dKIbqLo"}
-    ]
-  },
-  {
-    id:133,
-    title:"Les entrailles de Kubernetes & Kubernetes 101 - Hands-on",
-    subtitle:"Inside Kubernetes Control Plane Internals & Hands-On Workshop",
-    event:"Paris Container Day & Tech Conferences",
-    date:"2019 - 2020",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"FR",
-    coSpeakers:"with Ludovic Piot & Adrien Blind",
-    color:"bg-blue-600",
-    description:"From hands-on Kubernetes fundamentals to an architectural deep dive into etcd, kube-apiserver, scheduler, controller-manager, CNI/CSI, and kubelet.",
-    videoUrl:"https://www.youtube.com/watch?v=LdYBoNFc-gw",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Paris Container Day",date:"2019",videoUrl:"https://www.youtube.com/watch?v=LdYBoNFc-gw"}
-    ]
-  },
-  {
-    id:137,
-    title:"Continuous Delivery de conteneurs en production & Modern CI/CD with GCP",
-    subtitle:"Container Continuous Delivery on Kubernetes & Cloud-Native CI/CD",
-    event:"Paris Container Day & SophiaConf",
-    date:"2019 - 2022",
-    type:"Conference",
-    category:"Kubernetes & Platform Eng.",
-    lang:"FR / EN",
-    color:"bg-orange-600",
-    description:"Automating zero-downtime container delivery in production with Kubernetes and modern cloud-native CI/CD pipelines on Google Cloud Platform.",
-    videoUrl:"https://www.youtube.com/watch?v=09BZmpG95WM",
-    slidesUrl:"#",
-    sessions:[
-      {event:"SophiaConf",date:"2022",videoUrl:"https://www.youtube.com/watch?v=ea7tf6JcnrA"},
-      {event:"Paris Container Day",date:"2019",videoUrl:"https://www.youtube.com/watch?v=09BZmpG95WM"}
-    ]
-  },
-  {
-    id:107,
-    title:"Scaling AI: Architecting High-Throughput, Low-Latency Inference on Kubernetes",
-    subtitle:"Maîtrisez l'inférence à l'échelle sur GKE",
-    event:"Cloud Native AI & KCD",
-    date:"2025 - 2026",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"EN / FR",
-    color:"bg-indigo-600",
-    description:"Optimizing Kubernetes and GKE infrastructure for production LLM serving at scale with vLLM, GPU partitioning, KV cache routing, and inference gateway autoscaling.",
-    videoUrl:"#",
-    slidesUrl:"#"
-  },
-  {
-    id:111,
-    title:"Navigating the Agentic Stack on Kubernetes: A Layer-by-Layer Architectural Guide",
-    event:"Cloud Native AI / KubeCon CFP",
-    date:"2026",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"EN",
-    color:"bg-indigo-600",
-    description:"A complete architectural blueprint for building, isolating, scaling, and observing stateful multi-agent AI systems on top of Kubernetes.",
-    videoUrl:"#",
-    slidesUrl:"#"
-  },
-  {
-    id:112,
-    title:"Sandboxing Autonomous AI: High-Density Agents Orchestration",
-    event:"Cloud Native AI / KubeCon CFP",
-    date:"2026",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"EN",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-blue-600",
-    description:"High-density orchestration and sub-second microVM/sandbox isolation patterns for fleets of autonomous code-executing AI agents.",
-    videoUrl:"#",
-    slidesUrl:"#"
   },
   {
     id:114,
@@ -588,22 +298,10 @@ Wh=[
     color:"bg-indigo-600",
     description:"Understanding how Reinforcement Learning (RLHF, GRPO, test-time compute) powers modern reasoning LLMs and autonomous decision-making systems.",
     videoUrl:"#",
-    slidesUrl:"#"
-  },
-  {
-    id:115,
-    title:"Libérer la puissance des systèmes multi-agents avec Flowise",
-    subtitle:"Unleashing Multi-Agent Systems with Flowise",
-    event:"Tech Conferences",
-    date:"2025",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-cyan-600",
-    description:"Designing, prototyping, and orchestrating complex multi-agent RAG and tool-calling workflows visually using Flowise and LangChain.",
-    videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences 2025",date:"2025"}
+    ]
   },
   {
     id:116,
@@ -618,7 +316,118 @@ Wh=[
     color:"bg-blue-500",
     description:"A 360-degree technical tour of Generative AI modalities, architectures, RAG patterns, fine-tuning, and production deployment strategies.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences 2025",date:"2025"}
+    ]
+  },
+  {
+    id:118,
+    title:"(con)test-és et (dé)test-és MAIS (at)test-ables ? Les tests techniques dans le recrutement tech",
+    subtitle:"Technical Assessments in Tech Hiring in the Age of AI",
+    event:"Touraine Tech, Cloud Nord x Alpes & Cloud Sud",
+    date:"2024 - 2025",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    coSpeakers:"with Magali de Labareyre",
+    color:"bg-purple-600",
+    description:"Rethinking technical coding interviews and architecture assessments so they remain relevant, fair, and meaningful in the era of AI coding assistants.",
+    videoUrl:"https://www.youtube.com/watch?v=0xENYnx_N4I",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Touraine Tech 2025",date:"Feb 2025",videoUrl:"https://www.youtube.com/watch?v=0xENYnx_N4I"},
+      {event:"Cloud Nord x Alpes 2024",date:"Oct 2024",videoUrl:"https://www.youtube.com/watch?v=8ApsBD0-z5w"},
+      {event:"Cloud Sud 2024",date:"Sep 2024",videoUrl:"https://www.youtube.com/watch?v=1MYVSmPWnKA"}
+    ]
+  },
+  {
+    id:109,
+    title:"Kueue : Kubernetes-native Job Queueing",
+    subtitle:"Batch, AI/ML & HPC Job Queueing on Kubernetes",
+    event:"KCD Suisse Romande, DevFest Toulouse, France DevOps, BreizhCamp & Voxxed Days Luxembourg",
+    date:"2024 - 2025",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR / EN",
+    color:"bg-blue-600",
+    description:"Managing batch, AI/ML training, and HPC workloads on Kubernetes with quotas, priorities, preemption, and fair resource sharing using Kubernetes-native Kueue.",
+    videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY",
+    slidesUrl:"#",
+    sessions:[
+      {event:"KCD Suisse Romande 2025",date:"Sep 2025"},
+      {event:"DevFest Toulouse 2024",date:"Nov 2024"},
+      {event:"France DevOps 2024",date:"Sep 2024",videoUrl:"https://www.youtube.com/watch?v=uFkHbJu0dQI"},
+      {event:"BreizhCamp 2024",date:"Jun 2024"},
+      {event:"Voxxed Days Luxembourg 2024",date:"Jun 2024",videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY"}
+    ]
+  },
+  {
+    id:120,
+    title:"Maximisez la productivité des développeurs avec Backstage : plongez dans l'ingénierie des plateformes",
+    subtitle:"Maximize Developer Productivity with Backstage & Internal Developer Portals",
+    event:"Open Source Experience, DevFest Toulouse, Cloud Nord x Alpes & BreizhCamp",
+    date:"Jun - Dec 2024",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-indigo-600",
+    description:"Diving into Platform Engineering to build self-service Golden Paths and an Internal Developer Portal (IDP) with CNCF Backstage.",
+    videoUrl:"https://www.youtube.com/watch?v=LfTQITrK4Fw",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Open Source Experience 2024",date:"Dec 2024",videoUrl:"https://www.youtube.com/watch?v=LfTQITrK4Fw"},
+      {event:"DevFest Toulouse 2024",date:"Nov 2024"},
+      {event:"Cloud Nord x Alpes 2024",date:"Oct 2024",videoUrl:"https://www.youtube.com/watch?v=IWhIXlVsRls"},
+      {event:"BreizhCamp 2024",date:"Jun 2024"}
+    ]
+  },
+  {
+    id:108,
+    title:"Cracking the Quantum Code: Découvrons la révolution quantique !",
+    subtitle:"Discovering the Quantum Computing Revolution",
+    event:"DevFest Toulouse, GDG Strasbourg / Capitale Dev, Riviera DEV, BreizhCamp, Voxxed Days Luxembourg, Polycloud...",
+    date:"May - Nov 2024",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR / EN",
+    color:"bg-purple-600",
+    description:"Demystifying qubits, quantum superposition, entanglement, quantum gates, Shor's algorithm, and post-quantum cryptography for software engineers and architects.",
+    videoUrl:"https://www.youtube.com/watch?v=syhDBXDbNJY",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevFest Toulouse 2024",date:"Nov 2024",videoUrl:"https://www.youtube.com/watch?v=syhDBXDbNJY"},
+      {event:"GDG Strasbourg / Capitale Dev 2024",date:"Nov 2024",videoUrl:"https://www.youtube.com/watch?v=lEqBOsunRmQ"},
+      {event:"Programmez! DevCon 2024",date:"Oct 2024"},
+      {event:"Riviera DEV 2024",date:"Jul 2024",videoUrl:"https://www.youtube.com/watch?v=7hbaL_yLSJI"},
+      {event:"BreizhCamp 2024",date:"Jun 2024",videoUrl:"https://www.youtube.com/watch?v=W7sqLzt6UJM"},
+      {event:"Voxxed Days Luxembourg 2024",date:"Jun 2024",videoUrl:"https://www.youtube.com/watch?v=dygqMcWaR5I"},
+      {event:"Polycloud 2024",date:"May 2024",videoUrl:"https://www.youtube.com/watch?v=dAnGCEvOGBI"},
+      {event:"Newcrafts Paris 2024",date:"May 2024"},
+      {event:"MiXiT 2024",date:"Apr 2024"}
+    ]
+  },
+  {
+    id:110,
+    title:"Back to basics - J'ai une clé SSH, et maintenant ?",
+    subtitle:"Back to Basics: I Have an SSH Key, Now What?",
+    event:"JUG SummerCamp, Sunny Tech, Poitou JUG & Touraine Tech",
+    date:"Feb - Sep 2024",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    coSpeakers:"with Ludovic Piot",
+    color:"bg-cyan-600",
+    description:"Practical deep dive into SSH key cryptography, ssh-agent forwarding pitfalls, bastion hosts, SSH certificate authorities, and hardware security keys.",
+    videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos",
+    slidesUrl:"#",
+    sessions:[
+      {event:"JUG SummerCamp 2024",date:"Sep 2024"},
+      {event:"Sunny Tech 2024",date:"Jul 2024"},
+      {event:"Poitou JUG 2024",date:"Mar 2024",videoUrl:"https://www.youtube.com/watch?v=MtzTMJqH01U"},
+      {event:"Touraine Tech 2024",date:"Feb 2024",videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos"}
+    ]
   },
   {
     id:121,
@@ -633,7 +442,28 @@ Wh=[
     color:"bg-red-600",
     description:"Combining eBPF, OpenTelemetry, Falco, and runtime security policies to achieve deep visibility and defense-in-depth on Kubernetes clusters.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences 2024",date:"2024"}
+    ]
+  },
+  {
+    id:119,
+    title:"Federated Learning : Une nouvelle ère pour l'IA collaborative dans un monde soucieux de la vie privée",
+    subtitle:"Federated Learning: Privacy-Preserving Collaborative AI",
+    event:"Poitou JUG & JUG SummerCamp",
+    date:"2023 - 2024",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    color:"bg-cyan-600",
+    description:"Training machine learning models collaboratively across decentralized edge devices and silos without centralizing sensitive user data.",
+    videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Poitou JUG 2024",date:"Feb 2024",videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY"},
+      {event:"JUG SummerCamp 2023",date:"Sep 2023"}
+    ]
   },
   {
     id:122,
@@ -648,7 +478,120 @@ Wh=[
     color:"bg-blue-500",
     description:"Best practices for container image building, multi-stage optimization, provenance, SBOMs, vulnerability scanning, and registry lifecycle management.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences 2023",date:"2023"}
+    ]
+  },
+  {
+    id:1,
+    title:"GitOps: A Slightly Realistic Situation on Kubernetes",
+    subtitle:"Dans le *-as-code, master/HEAD est-il vraiment une option ? Batman semble convaincu du contraire.",
+    event:"BreizhCamp & KubeCon + CloudNativeCon Europe",
+    date:"May - Jun 2022",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"EN / FR",
+    coSpeakers:"with Ludovic Piot",
+    color:"bg-blue-600",
+    description:"Exploring real-world GitOps implementations using FluxCD and ArgoCD, multi-environment promotion strategies, and why tracking master/HEAD in production is an anti-pattern.",
+    videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI",
+    slidesUrl:"#",
+    sessions:[
+      {event:"BreizhCamp 2022",date:"Jun 2022",videoUrl:"https://www.youtube.com/watch?v=FVOgb--QOhA"},
+      {event:"KubeCon + CloudNativeCon Europe 2022",date:"May 2022",videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI"}
+    ]
+  },
+  {
+    id:137,
+    title:"Continuous Delivery de conteneurs en production & Modern CI/CD with GCP",
+    subtitle:"Container Continuous Delivery on Kubernetes & Cloud-Native CI/CD",
+    event:"SophiaConf & Paris Container Day",
+    date:"2019 - 2022",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR / EN",
+    color:"bg-orange-600",
+    description:"Automating zero-downtime container delivery in production with Kubernetes and modern cloud-native CI/CD pipelines on Google Cloud Platform.",
+    videoUrl:"https://www.youtube.com/watch?v=ea7tf6JcnrA",
+    slidesUrl:"#",
+    sessions:[
+      {event:"SophiaConf 2022",date:"Jun 2022",videoUrl:"https://www.youtube.com/watch?v=ea7tf6JcnrA"},
+      {event:"Paris Container Day 2019",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=09BZmpG95WM"}
+    ]
+  },
+  {
+    id:5,
+    title:"Zero Trust : The New Normal ! (Le modèle Zero Trust dans Kubernetes)",
+    subtitle:"Implementing Zero Trust Security in Cloud-Native Architectures",
+    event:"Devoxx France",
+    date:"Apr 2022",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-red-600",
+    description:"Implementing Zero Trust security principles, BeyondCorp identity-aware access, workload identity, network policies, and mTLS in modern Kubernetes environments.",
+    videoUrl:"https://www.youtube.com/watch?v=VNmf1Wz16uk",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Devoxx France 2022",date:"Apr 2022",videoUrl:"https://www.youtube.com/watch?v=VNmf1Wz16uk"}
+    ]
+  },
+  {
+    id:123,
+    title:"AWS vs GCP vs Azure : Le comparatif architectural",
+    subtitle:"AWS vs GCP vs Azure: Cloud Architecture Comparison",
+    event:"Cloud Sud & Devoxx France",
+    date:"Sep 2021",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault & Olivier Dupré",
+    color:"bg-blue-600",
+    description:"An objective, architectural comparison of the three hyperscalers across global networking, IAM, compute, Kubernetes, serverless, and storage.",
+    videoUrl:"https://www.youtube.com/watch?v=adUIcWiHT-U",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Cloud Sud 2021",date:"Sep 2021",videoUrl:"https://www.youtube.com/watch?v=S_5J4emut6Q"},
+      {event:"Devoxx France 2021",date:"Sep 2021",videoUrl:"https://www.youtube.com/watch?v=adUIcWiHT-U"}
+    ]
+  },
+  {
+    id:124,
+    title:"FinOps : et si on arrêtait de balancer l'argent par les fenêtres ?",
+    subtitle:"FinOps: Stopping Cloud Waste and Optimizing Cloud Spend",
+    event:"France DevOps",
+    date:"Sep 2021",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault & Olivier Dupré",
+    color:"bg-orange-600",
+    description:"Bringing financial accountability to the variable spend model of the cloud through FinOps culture, cost allocation, rightsizing, and commitment strategies.",
+    videoUrl:"https://www.youtube.com/watch?v=EAYPrS-ppgE",
+    slidesUrl:"#",
+    sessions:[
+      {event:"France DevOps 2021",date:"Sep 2021",videoUrl:"https://www.youtube.com/watch?v=EAYPrS-ppgE"}
+    ]
+  },
+  {
+    id:6,
+    title:"Le chiffrement symétrique de A à Z",
+    subtitle:"Symmetric Encryption from A to Z",
+    event:"Devoxx France",
+    date:"Sep 2021",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    coSpeakers:"with Mickael Roger",
+    color:"bg-indigo-600",
+    description:"A comprehensive dive into symmetric cryptography primitives, AES, block cipher modes of operation (CBC, GCM), key management (KMS), and envelope encryption.",
+    videoUrl:"https://www.youtube.com/watch?v=J2uiajALYio",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Devoxx France 2021",date:"Sep 2021",videoUrl:"https://www.youtube.com/watch?v=J2uiajALYio"}
+    ]
   },
   {
     id:125,
@@ -662,7 +605,10 @@ Wh=[
     color:"bg-blue-600",
     description:"Extending the Kubernetes API with Custom Resource Definitions (CRDs) and custom reconciliation loops to automate stateful operational knowledge.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences & Meetups",date:"2021"}
+    ]
   },
   {
     id:126,
@@ -676,7 +622,69 @@ Wh=[
     color:"bg-red-600",
     description:"Enforcing policy-as-code guardrails and admission control on Kubernetes clusters using Open Policy Agent (OPA), Gatekeeper, and Rego.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences",date:"2021"}
+    ]
+  },
+  {
+    id:129,
+    title:"cgroups v2 : Quoi de neuf du côté des containers ?",
+    subtitle:"Linux Kernel cgroups v2: What's New for Containers?",
+    event:"Paris Container Day",
+    date:"Nov 2020",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"Deep dive into the Linux kernel's unified control group hierarchy (cgroups v2), resource isolation improvements, pressure stall information (PSI), and rootless containers.",
+    videoUrl:"https://www.youtube.com/watch?v=nHe1dKIbqLo",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Paris Container Day 2020",date:"Nov 2020",videoUrl:"https://www.youtube.com/watch?v=nHe1dKIbqLo"}
+    ]
+  },
+  {
+    id:133,
+    title:"Les entrailles de Kubernetes & Kubernetes 101 - Hands-on",
+    subtitle:"Inside Kubernetes Control Plane Internals & Hands-On Workshop",
+    event:"Paris Container Day & Tech Conferences",
+    date:"Nov 2020",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR",
+    coSpeakers:"with Ludovic Piot & Adrien Blind",
+    color:"bg-blue-600",
+    description:"From hands-on Kubernetes fundamentals to an architectural deep dive into etcd, kube-apiserver, scheduler, controller-manager, CNI/CSI, and kubelet.",
+    videoUrl:"https://www.youtube.com/watch?v=LdYBoNFc-gw",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Paris Container Day 2020",date:"Nov 2020",videoUrl:"https://www.youtube.com/watch?v=LdYBoNFc-gw"}
+    ]
+  },
+  {
+    id:136,
+    title:"#serverless - Mettez-le en œuvre dans votre entreprise & OpenFaaS sur Docker et Kubernetes",
+    subtitle:"Enterprise Serverless Adoption & FaaS Frameworks on Kubernetes",
+    event:"Voxxed Days Luxembourg, Capitole du Libre, Devoxx France, BreizhCamp & DevOps D-Day",
+    date:"2018 - 2020",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR / EN",
+    coSpeakers:"with Ludovic Piot & Adrien Blind",
+    color:"bg-purple-600",
+    description:"Comparing open-source FaaS frameworks on Docker and Kubernetes (OpenFaaS, Knative, Kubeless) and multi-year enterprise serverless feedback.",
+    videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Voxxed Days Luxembourg 2020 (2 ans de REX)",date:"Jun 2020",videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0"},
+      {event:"Capitole du Libre 2019",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=x6o5aYvqBpA"},
+      {event:"Voxxed Days Luxembourg 2019 (FaaS & Furious)",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=zyDDOWRnjKw"},
+      {event:"Devoxx France 2019",date:"Apr 2019",videoUrl:"https://www.youtube.com/watch?v=xycu-tiRTms"},
+      {event:"BreizhCamp 2019 (#serverless)",date:"Mar 2019",videoUrl:"https://www.youtube.com/watch?v=gdaxX3OqfFw"},
+      {event:"DevOps D-Day 2018 (OpenFaaS)",date:"Nov 2018",videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI"},
+      {event:"BreizhCamp 2018 (OpenFaaS)",date:"Mar 2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"}
+    ]
   },
   {
     id:127,
@@ -690,7 +698,10 @@ Wh=[
     color:"bg-cyan-600",
     description:"Building standardized, portable, Kubernetes-native Continuous Integration and Delivery pipelines using Tekton Tasks, Pipelines, and Triggers.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences",date:"2020"}
+    ]
   },
   {
     id:128,
@@ -704,7 +715,10 @@ Wh=[
     color:"bg-blue-500",
     description:"Exploring Rancher's lightweight Kubernetes distribution (k3s) for instant local development, CI environments, edge computing, and IoT.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences & Meetups",date:"2020"}
+    ]
   },
   {
     id:130,
@@ -718,7 +732,10 @@ Wh=[
     color:"bg-indigo-600",
     description:"Comparing declarative DSLs like Terraform HCL with general-purpose programming languages (TypeScript, Python, Go, C#) using Pulumi for Cloud & Kubernetes IaC.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences",date:"2020"}
+    ]
   },
   {
     id:131,
@@ -732,7 +749,10 @@ Wh=[
     color:"bg-cyan-600",
     description:"Designing a real-time event streaming Kappa architecture from IoT Edge devices to cloud stream processing and analytics on Microsoft Azure.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences",date:"2020"}
+    ]
   },
   {
     id:132,
@@ -746,7 +766,29 @@ Wh=[
     color:"bg-blue-500",
     description:"Unit, integration, and end-to-end testing strategies for event-driven serverless functions and cloud bindings.",
     videoUrl:"#",
-    slidesUrl:"#"
+    slidesUrl:"#",
+    sessions:[
+      {event:"Tech Conferences & Meetups",date:"2020"}
+    ]
+  },
+  {
+    id:135,
+    title:"Unleash the Cloud! Le futur du cloud hors de ses murs avec l'IoT et l'Edge Computing",
+    subtitle:"Cloud: 3 Multi-Provider Scenarios from IaaS to BaaS & Serverless",
+    event:"DevOps D-Day & Voxxed Days Luxembourg",
+    date:"Jun - Nov 2019",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    coSpeakers:"with Ludovic Piot & Adrien Blind",
+    color:"bg-cyan-600",
+    description:"Extending cloud-native patterns to the Edge and evaluating multi-cloud portability across IaaS, BaaS, and full Serverless abstractions.",
+    videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevOps D-Day 2019",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ"},
+      {event:"Voxxed Days Luxembourg 2019",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=ysXWglKvg_A"}
+    ]
   },
   {
     id:134,
@@ -760,25 +802,28 @@ Wh=[
     color:"bg-indigo-600",
     description:"Evaluating Knative Serving/Eventing and Virtual Kubelet for building scale-to-zero serverless workloads and bursting seamlessly from Kubernetes to managed FaaS.",
     videoUrl:"#",
-    slidesUrl:"#"
-  },
-  {
-    id:135,
-    title:"Unleash the Cloud! Le futur du cloud hors de ses murs avec l'IoT et l'Edge Computing",
-    subtitle:"Cloud: 3 Multi-Provider Scenarios from IaaS to BaaS & Serverless",
-    event:"Voxxed Days Luxembourg & DevOps D-Day",
-    date:"2019",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"FR",
-    coSpeakers:"with Ludovic Piot & Adrien Blind",
-    color:"bg-cyan-600",
-    description:"Extending cloud-native patterns to the Edge and evaluating multi-cloud portability across IaaS, BaaS, and full Serverless abstractions.",
-    videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ",
     slidesUrl:"#",
     sessions:[
-      {event:"DevOps D-Day",date:"2019",videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ"},
-      {event:"Voxxed Days Luxembourg",date:"2019",videoUrl:"https://www.youtube.com/watch?v=ysXWglKvg_A"}
+      {event:"Tech Conferences",date:"2019"}
+    ]
+  },
+  {
+    id:138,
+    title:"Microservices de la bonne façon : une introduction à Istio",
+    subtitle:"Microservices the Right Way: An Introduction to Istio Service Mesh",
+    event:"APIdays Paris, ContainerDays & Sunny Tech",
+    date:"Jun - Dec 2018",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"EN / FR",
+    color:"bg-blue-600",
+    description:"Introducing Service Mesh architecture with Istio and Envoy on Kubernetes for traffic management, canary releases, distributed tracing, and mTLS security.",
+    videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8",
+    slidesUrl:"https://www.slideshare.net/laurentgrangeau",
+    sessions:[
+      {event:"APIdays Paris 2018",date:"Dec 2018",videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8"},
+      {event:"ContainerDays 2018",date:"Jun 2018",videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc"},
+      {event:"Sunny Tech 2018",date:"Jun 2018",slidesUrl:"https://www.slideshare.net/laurentgrangeau"}
     ]
   },
   {
@@ -786,7 +831,7 @@ Wh=[
     title:"Software Architecture Fundamentals & DockerCon: The Missing Piece",
     subtitle:"When Docker Networking Unleashes Software Architecture 2.0",
     event:"DockerCon EU, PioneersIO & Software Arch Meetup",
-    date:"2015 - 2017",
+    date:"Nov 2015",
     type:"Keynote",
     category:"Security, Network & Systems",
     lang:"EN",
@@ -795,7 +840,7 @@ Wh=[
     videoUrl:"#",
     slidesUrl:"https://www.slideshare.net/slideshow/dockercon-the-missing-piece-when-docker-networking-unleashes-software-archtecture-20/56140190",
     sessions:[
-      {event:"DockerCon EU",date:"2015",slidesUrl:"https://www.slideshare.net/slideshow/dockercon-the-missing-piece-when-docker-networking-unleashes-software-archtecture-20/56140190"}
+      {event:"DockerCon EU 2015",date:"Nov 2015",slidesUrl:"https://www.slideshare.net/slideshow/dockercon-the-missing-piece-when-docker-networking-unleashes-software-archtecture-20/56140190"}
     ]
   }
 ],
@@ -1025,43 +1070,59 @@ Au=({title:p,subtitle:j})=>r.jsxs("div",{className:"mb-12 text-center",children:
   j&&r.jsx("p",{className:"mt-4 text-lg text-gray-500 max-w-2xl mx-auto",children:j})
 ]}),
 Ph=({conf:p})=>{
-  const j=p.videoUrl&&p.videoUrl!=="#",
-  N=p.slidesUrl&&p.slidesUrl!=="#",
+  const N=p.slidesUrl&&p.slidesUrl!=="#",
   m=p.repoUrl&&p.repoUrl!=="#",
-  sessions=p.sessions||[],
-  videoSessions=sessions.filter(s=>s.videoUrl);
-  return r.jsxs("div",{className:"bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-full border border-gray-100",children:[
+  sessions=p.sessions&&p.sessions.length>0?p.sessions:[{event:p.event,date:p.date,videoUrl:p.videoUrl!=="#"?p.videoUrl:void 0,slidesUrl:p.slidesUrl!=="#"?p.slidesUrl:void 0}];
+  return r.jsxs("div",{className:"w-full bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200",children:[
     r.jsx("div",{className:`h-2 ${p.color} w-full`}),
-    r.jsxs("div",{className:"p-6 flex-grow flex flex-col",children:[
-      r.jsxs("div",{className:"flex flex-wrap items-center gap-2 mb-3",children:[
-        r.jsx("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-800",children:p.type}),
-        p.lang&&r.jsx("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-700",children:p.lang}),
-        sessions.length>1&&r.jsxs("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-50 text-blue-700",children:[sessions.length," Editions"]}),
-        p.coSpeakers&&r.jsx("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-purple-50 text-purple-700",children:p.coSpeakers})
-      ]}),
-      r.jsx("h3",{className:"text-lg font-bold text-gray-900 leading-snug mb-1",children:p.title}),
-      p.subtitle&&r.jsx("p",{className:"text-xs font-medium text-blue-600 mb-2",children:p.subtitle}),
-      r.jsxs("p",{className:"text-xs font-medium text-gray-500 flex items-center mt-1 mb-3",children:[r.jsx(Ah,{size:14,className:"mr-1.5 flex-shrink-0"})," ",p.event," • ",p.date]}),
-      r.jsx("p",{className:"text-gray-600 text-sm leading-relaxed mb-4",children:p.description}),
-      sessions.length>0&&r.jsxs("div",{className:"mt-auto pt-3 border-t border-gray-100",children:[
-        r.jsxs("p",{className:"text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2",children:[
-          "Conferences & Replays (",sessions.length,")"
+    r.jsxs("div",{className:"p-6 sm:px-8 flex flex-col lg:flex-row gap-6 justify-between",children:[
+      r.jsxs("div",{className:"lg:w-1/2 flex flex-col",children:[
+        r.jsxs("div",{className:"flex flex-wrap items-center gap-2 mb-3",children:[
+          r.jsx("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-800",children:p.type}),
+          r.jsx("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700",children:p.category}),
+          p.lang&&r.jsx("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-gray-100 text-gray-800",children:p.lang}),
+          p.coSpeakers&&r.jsx("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-50 text-purple-800",children:p.coSpeakers})
         ]}),
-        r.jsx("div",{className:"flex flex-wrap gap-1.5",children:sessions.map((s,idx)=>
-          s.videoUrl?r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",title:`Watch ${s.event} (${s.date}) on YouTube`,children:[
-            r.jsx(Th,{size:12,className:"mr-1 text-red-600 flex-shrink-0"}),
-            s.event
-          ]},idx):s.slidesUrl?r.jsxs("a",{href:s.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",title:`Open ${s.event}`,children:[
-            r.jsx(hf,{size:12,className:"mr-1 text-blue-600 flex-shrink-0"}),
-            s.event
-          ]},idx):r.jsx("span",{className:"inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-700",children:s.event},idx)
+        r.jsx("h3",{className:"text-xl sm:text-2xl font-bold text-gray-900 leading-snug mb-1",children:p.title}),
+        p.subtitle&&r.jsx("p",{className:"text-sm font-medium text-blue-600 mb-3",children:p.subtitle}),
+        r.jsx("p",{className:"text-gray-600 text-sm leading-relaxed mb-4",children:p.description}),
+        (N||m)&&r.jsxs("div",{className:"flex flex-wrap gap-3 mt-auto pt-2",children:[
+          N&&r.jsxs("a",{href:p.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-colors shadow-sm",children:[r.jsx(hf,{size:15,className:"mr-1.5"}),"Interactive Presentation / Slides",r.jsx(vf,{size:13,className:"ml-1.5"})]}),
+          m&&r.jsxs("a",{href:p.repoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-colors",children:[r.jsx(D0,{size:15,className:"mr-1.5 text-gray-800"}),"GitHub Repository"]})
+        ]})
+      ]}),
+      r.jsxs("div",{className:"lg:w-1/2 bg-gray-50 rounded-xl p-4 sm:p-6 border border-gray-200 flex flex-col",children:[
+        r.jsxs("div",{className:"flex items-center justify-between mb-3 pb-2 border-b border-gray-200",children:[
+          r.jsxs("span",{className:"text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center",children:[
+            r.jsx(Ah,{size:14,className:"mr-1.5 text-blue-600"}),
+            "Conferences & Replays (Newest First)"
+          ]}),
+          r.jsxs("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200",children:[
+            sessions.length," ",sessions.length>1?"Conferences":"Conference"
+          ]})
+        ]}),
+        r.jsx("div",{className:"flex flex-col gap-2",children:sessions.map((s,idx)=>
+          r.jsxs("div",{className:"flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-300 transition-colors shadow-sm",children:[
+            r.jsxs("div",{className:"flex items-center gap-2.5",children:[
+              r.jsx("span",{className:"inline-flex items-center px-2.5 py-1 rounded text-xs font-semibold bg-gray-100 text-gray-800 flex-shrink-0",children:s.date}),
+              r.jsx("span",{className:"text-sm font-bold text-gray-900",children:s.event})
+            ]}),
+            r.jsxs("div",{className:"flex flex-wrap items-center gap-2",children:[
+              s.videoUrl&&r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",children:[
+                r.jsx(Th,{size:14,className:"mr-1.5 text-red-600 flex-shrink-0"}),
+                "Watch on YouTube",
+                r.jsx(vf,{size:12,className:"ml-1"})
+              ]}),
+              s.slidesUrl&&r.jsxs("a",{href:s.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",children:[
+                r.jsx(hf,{size:14,className:"mr-1.5 text-blue-600 flex-shrink-0"}),
+                "Slides / Deck",
+                r.jsx(vf,{size:12,className:"ml-1"})
+              ]}),
+              !s.videoUrl&&!s.slidesUrl&&r.jsx("span",{className:"text-xs font-medium text-gray-400 px-2 py-1",children:"Conference Session"})
+            ]})
+          ]},idx)
         )})
       ]})
-    ]}),
-    r.jsxs("div",{className:"bg-gray-50 px-6 py-4 border-t border-gray-100 flex gap-2",children:[
-      r.jsxs("a",{href:j?p.videoUrl:void 0,target:j?"_blank":void 0,rel:j?"noopener noreferrer":void 0,className:`flex-1 inline-flex justify-center items-center px-3 py-2 border shadow-sm text-sm font-medium rounded-md transition-colors ${j?"border-gray-300 text-gray-700 bg-white hover:bg-gray-50":"border-gray-200 text-gray-400 bg-gray-50 cursor-not-allowed opacity-60"}`,"aria-disabled":!j,onClick:Y=>!j&&Y.preventDefault(),children:[r.jsx(Th,{size:16,className:`mr-1.5 ${j?"text-red-600":"text-gray-400"}`}),videoSessions.length>1?`Watch (${videoSessions.length})`:"Watch"]}),
-      r.jsxs("a",{href:N?p.slidesUrl:void 0,target:N?"_blank":void 0,rel:N?"noopener noreferrer":void 0,className:`flex-1 inline-flex justify-center items-center px-3 py-2 border shadow-sm text-sm font-medium rounded-md transition-colors ${N?"border-gray-300 text-gray-700 bg-white hover:bg-gray-50":"border-gray-200 text-gray-400 bg-gray-50 cursor-not-allowed opacity-60"}`,"aria-disabled":!N,onClick:Y=>!N&&Y.preventDefault(),children:[r.jsx(hf,{size:16,className:`mr-1.5 ${N?"text-orange-600":"text-gray-400"}`})," Slides"]}),
-      m&&r.jsxs("a",{href:p.repoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex justify-center items-center px-3 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors",title:"GitHub Repository",children:[r.jsx(D0,{size:16,className:"mr-1.5 text-gray-700"}),"Repo"]})
     ]})
   ]})
 },
@@ -1147,11 +1208,11 @@ function uy(){
   filteredConfs=Wh.filter(c=>{
     const matchCat=cat==="All"||c.category===cat,
     q=search.trim().toLowerCase(),
-    sessionsText=(c.sessions||[]).map(s=>s.event).join(" ").toLowerCase(),
+    sessionsText=(c.sessions||[]).map(s=>`${s.event} ${s.date}`).join(" ").toLowerCase(),
     matchSearch=!q||c.title.toLowerCase().includes(q)||(c.subtitle&&c.subtitle.toLowerCase().includes(q))||c.description.toLowerCase().includes(q)||c.event.toLowerCase().includes(q)||sessionsText.includes(q)||(c.coSpeakers&&c.coSpeakers.toLowerCase().includes(q));
     return matchCat&&matchSearch
   }),
-  displayedConfs=cat==="All"&&!search.trim()&&!showAll?filteredConfs.slice(0,12):filteredConfs;
+  displayedConfs=cat==="All"&&!search.trim()&&!showAll?filteredConfs.slice(0,15):filteredConfs;
   return $t.useEffect(()=>{
     const N=()=>{
       const m=["hero","about","experience","speaking","courses","community","publications","articles","contact"];
@@ -1211,7 +1272,7 @@ function uy(){
     }),
     r.jsx("section",{id:"speaking",className:"py-20 bg-white",children:
       r.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[
-        r.jsx(Au,{title:"Speaking & Conferences",subtitle:"35+ conference talks, keynotes, and workshops delivered across 60+ editions in English and French — with direct links to every conference replay and interactive slide deck."}),
+        r.jsx(Au,{title:"Speaking & Conferences",subtitle:"35+ conference talks, keynotes, and workshops delivered across 65+ editions in English and French — ordered chronologically with every conference session and YouTube replay."}),
         r.jsxs("div",{className:"mb-10 bg-gray-900 text-white rounded-xl p-6 shadow-md flex flex-col lg:flex-row items-center justify-between gap-4",children:[
           r.jsxs("div",{className:"text-center lg:text-left",children:[
             r.jsx("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-blue-600 text-white mb-2",children:"Interactive Web Presentations"}),
@@ -1234,9 +1295,9 @@ function uy(){
             r.jsx("input",{type:"text",value:search,onChange:e=>setSearch(e.target.value),placeholder:"Search talks, events (BreizhCamp, Devoxx...)",className:"w-full px-4 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600 bg-gray-50"})
           })
         ]}),
-        r.jsx("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6",children:displayedConfs.map(N=>r.jsx(Ph,{conf:N},N.id))}),
-        cat==="All"&&!search.trim()&&filteredConfs.length>12&&r.jsx("div",{className:"mt-10 text-center",children:
-          r.jsx("button",{onClick:()=>setShowAll(!showAll),className:"inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all shadow-md",children:showAll?"Show Featured Talks Only (12)":`Show All ${filteredConfs.length} Conferences & Talks`})
+        r.jsx("div",{className:"flex flex-col gap-6 mt-6 w-full",children:displayedConfs.map(N=>r.jsx(Ph,{conf:N},N.id))}),
+        cat==="All"&&!search.trim()&&filteredConfs.length>15&&r.jsx("div",{className:"mt-10 text-center",children:
+          r.jsx("button",{onClick:()=>setShowAll(!showAll),className:"inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all shadow-md",children:showAll?"Show Recent Talks Only (15)":`Show All ${filteredConfs.length} Talks (${Wh.reduce((a,c)=>a+(c.sessions?c.sessions.length:1),0)} Conference Sessions)`})
         }),
         r.jsxs("div",{className:"mt-12 flex flex-col sm:flex-row justify-center gap-4 text-center",children:[
           r.jsxs("a",{href:Yl.socials.slideshare,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center justify-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors",children:[r.jsx(hf,{size:18,className:"mr-2 text-orange-600"}),"View SlideShare Archive"]}),
