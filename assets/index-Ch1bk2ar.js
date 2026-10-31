@@ -48,30 +48,193 @@ kh=[
 H0=[
   {
     id:1,
-    role:"Cloud Solution Architect",
+    role:"Solutions Architect",
     company:"Google",
-    period:"2020 - Present",
-    location:"Paris, France",
-    description:"Helping customers design and build scalable, secure, and reliable solutions on Google Cloud Platform. Specializing in Kubernetes (GKE), Serverless, Zero Trust security, DevOps practices, and GenAI multi-agent architectures.",
-    skills:["Google Cloud Platform","Kubernetes","GenAI & Agents","Zero Trust","Architecture","DevOps"]
+    period:"Nov 2021 - Present",
+    location:"Paris, Île-de-France, France • Hybrid",
+    description:"Designing and building scalable, secure, and accelerated cloud-native & AI platforms on Google Cloud Platform and Google Kubernetes Engine (GKE). Key open-source reference architectures and platforms:",
+    links:[
+      {label:"Google Cloud Accelerated Platforms",url:"https://github.com/GoogleCloudPlatform/accelerated-platforms"},
+      {label:"Batch Processing Platform on GKE Reference Architecture",url:"https://github.com/ai-on-gke/batch-reference-architecture"},
+      {label:"Federated Learning on Google Cloud",url:"https://github.com/GoogleCloudPlatform/federated-learning"}
+    ],
+    skills:["Google Cloud Platform","Public Cloud","Kubernetes (GKE)","Accelerated Platforms","Batch & AI on GKE","Federated Learning","GenAI & Agents","Zero Trust"]
   },
   {
     id:2,
-    role:"Cloud Solution Architect & DevOps",
-    company:"Sogeti",
-    period:"2018 - 2020",
-    location:"Paris Area, France",
-    description:"Led cloud transformation projects and implemented CI/CD pipelines for major banking and insurance clients. Evangelized Cloud Native technologies and container orchestration.",
-    skills:["Google Cloud","Azure","Docker","Kubernetes","CI/CD","Microservices"]
+    role:"Founder & CEO — Higher Education Lecturer & Trainer",
+    company:"CodeForCloud",
+    period:"Oct 2018 - Present",
+    location:"Paris, France",
+    description:"Independent Cloud & DevOps consulting, online video course authoring, and higher-education teaching across leading French engineering schools and universities.",
+    bullets:[
+      "Udemy Instructor & Video Course Author (Editions ENI, OpenClassrooms)",
+      "Cloud & DevOps Lecturer at ECE Paris & Lyon",
+      "Cloud & DevOps Lecturer at Junia",
+      "Cloud & DevOps Lecturer at Sup'Galilée (Université Sorbonne Paris Nord)",
+      "Cloud & DevOps Lecturer at IUT de Montreuil"
+    ],
+    skills:["Public Cloud","DevOps","Kubernetes","Terraform","Higher Education","Technical Training"]
   },
   {
     id:3,
-    role:"Technical Architect",
-    company:"Finaxys",
-    period:"2015 - 2018",
+    role:"Cloud Advisor",
+    company:"Rockchain",
+    period:"Feb 2017 - Present",
+    location:"Paris Area, France",
+    description:"Solving privacy on the blockchain: advising on distributed cloud infrastructure for Rockchain, a distributed network working alongside Ethereum to extend the public blockchain onto private datastores and perform public computation on private data.",
+    skills:["Public Cloud","Distributed Systems","Blockchain & Ethereum","Privacy-Preserving Computation"]
+  },
+  {
+    id:4,
+    role:"Organizer & Community Leader",
+    company:"Paris Serverless Architecture Meetup",
+    period:"Sep 2016 - Present",
     location:"Paris, France",
-    description:"Designed microservices architectures and introduced containerization strategies. Active speaker at technical meetups and international conferences.",
-    skills:["Java",".NET","Docker","Mesos","Microservices"]
+    description:"Organizing the Paris Serverless Architecture community and partnering with international events (All Day DevOps partner).",
+    bullets:[
+      "Meta Meetup DevOps & Craftsmanship: Apache OpenWhisk framework",
+      "Meetup #6: APIs in Azure — serverless or not serverless?",
+      "Meetup #5: Google Cloud Functions",
+      "Meetup #4: Gojko Adzic & Yan Cui (NewCrafts conference special)",
+      "Meetup #3: Serverless Benefits, Use Cases & Open-Source OpenWhisk",
+      "Meetup #2: Serverless Frameworks on AWS",
+      "Meetup #1: Azure Functions — Executing Nano-Services in Serverless Mode"
+    ],
+    skills:["Serverless","Public Cloud","AWS Lambda","Google Cloud Functions","Azure Functions","OpenWhisk","OpenFaaS"]
+  },
+  {
+    id:5,
+    role:"International Conference & Meetup Speaker",
+    company:"Tech Conferences & Community",
+    period:"Feb 2013 - Present",
+    location:"Europe & Online",
+    description:"65+ conference and meetup sessions delivered across KubeCon + CloudNativeCon Europe, DockerCon EU, HashiConf EU, Devoxx France, DevFest Nantes, BreizhCamp, Sunny Tech, SnowCamp, APIdays, Voxxed Days, and Microsoft TechDays.",
+    bullets:[
+      "2017: Skynet vs Planet of the Apes — DockerCon EU, Devoxx France, Voxxed Days Luxembourg, BreizhCamp",
+      "2017: All you need is orchestration! — SnowCamp.io",
+      "2016: Containers orchestration: an overview of Swarm, Mesos, Kubernetes and Nomad — APIdays",
+      "2016: Making a mammoth run: Continuous Delivery in a bank — HashiConf EU & DevOps D-Day",
+      "2016: Docker Windows + Continuous Delivery = <3 — Microsoft Experiences & Meetup Docker (Global Mentor Week)",
+      "2015: The missing piece: when Docker networking unleashes software architecture 2.0 — DockerCon EU & Pioneers.io",
+      "2013: BI analysis with SQL Server 2012 — Microsoft TechDays"
+    ],
+    skills:["Public Speaking","Kubernetes","Docker","Cloud Native","DevSecOps","GenAI & Quantum"]
+  },
+  {
+    id:6,
+    role:"Technical Partner Manager",
+    company:"Sogeti (Capgemini Group)",
+    period:"Jan 2021 - Nov 2021",
+    location:"Paris Area, France",
+    description:"Led strategic technical partnerships with hyperscale cloud providers, driving joint cloud-native go-to-market initiatives, technical enablement, and enterprise cloud adoption.",
+    skills:["Public Cloud","Strategic Partnerships","Cloud Architecture","Go-To-Market"]
+  },
+  {
+    id:7,
+    role:"Cloud Solution Architect | Business Developer",
+    company:"Sogeti (Capgemini Group)",
+    period:"Jun 2017 - Jan 2021",
+    location:"Issy-les-Moulineaux, France",
+    description:"Designed multi-cloud and cloud-native architectures for enterprise clients, led pre-sales and business development, and served as a global thought leader within SogetiLabs and Capgemini Expert Connect.",
+    links:[
+      {label:"SogetiLabs Fellow Profile",url:"http://labs.sogeti.com/experts/laurent-grangeau/"},
+      {label:"Capgemini Expert Connect Program",url:"https://www.capgemini.com/experts/cloud-services/laurent-grangeau/"}
+    ],
+    skills:["Public Cloud","Google Cloud","Azure","AWS","Kubernetes","Docker","Microservices"]
+  },
+  {
+    id:8,
+    role:"Cloud Solution Architect | Consultant Manager",
+    company:"FINAXYS",
+    period:"Jan 2017 - Jun 2017",
+    location:"Paris Area, France",
+    description:"Led the Cloud Offering and enterprise cloud migration initiatives for financial services clients.",
+    bullets:[
+      "Cloud migration of Kepler Cheuvreux's information system to AWS: TCO modeling, target cloud architecture design, and implementation of AWS best practices.",
+      "Head of Cloud Offering: led pre-sales engagements and defined target cloud architectures for enterprise customers."
+    ],
+    skills:["AWS","Public Cloud","TCO & FinOps","Cloud Migration","Pre-Sales","Solution Architecture"]
+  },
+  {
+    id:9,
+    role:"Consultant Manager — DevOps Coach",
+    company:"FINAXYS",
+    period:"Feb 2015 - Dec 2016",
+    location:"La Défense, France",
+    description:"Spearheaded Continuous Delivery transformations and enterprise Container/PaaS platforms in corporate and investment banking.",
+    bullets:[
+      "Continuous Delivery transformation to reduce Time-to-Market (TTM) and Time-to-Deploy (TTD): DevOps team coaching, CI/CD software factory implementation, and end-to-end deployment automation.",
+      "Cloud & PaaS transversal architecture program: designed the enterprise Docker platform, trained engineering teams on Docker, guided application modernization, solved scalability and resilience challenges, and served as Application Security Lead."
+    ],
+    skills:["DevOps","Continuous Delivery","Docker","PaaS","Application Security","Scalability & Resilience"]
+  },
+  {
+    id:10,
+    role:"Software Architect (Architecte Logiciel)",
+    company:"Bouygues Telecom",
+    period:"Mar 2013 - Jan 2015",
+    location:"Paris Area, France",
+    description:"Head of software quality, security, and development standards for a 50-person engineering department managing 80 technical systems.",
+    bullets:[
+      "Installed and migrated engineering teams to Team Foundation Server (TFS) 2013 and SQL Server 2012",
+      "Developed cloud solutions and rolled out DevOps practices across the department",
+      "Served as Application Security Lead and oversaw technology watch",
+      "Architected and built a multilingual ASP.NET MVC 5 web application and a multi-vendor mobile collaborative platform (150k€ budget, major productivity gains)",
+      "Founded and hosted cross-group Microsoft technology communities across the Bouygues Group"
+    ],
+    skills:["Software Architecture",".NET / ASP.NET MVC 5","TFS 2013","SQL Server 2012","DevOps","Application Security"]
+  },
+  {
+    id:11,
+    role:"Software Architect & Project Manager",
+    company:"Bouygues Telecom",
+    period:"Sep 2010 - Mar 2013",
+    location:"Paris Area, France",
+    description:"Built transversal engineering platforms and practices to accelerate developer productivity across software teams.",
+    bullets:[
+      "Deployed and configured Jenkins CI and SonarQube across development projects",
+      "Authored development standards, conducted code audits, and certified as IFPUG function point analyst",
+      "Created and hosted 'OpenDev' Brown Bag Lunch technical sessions",
+      "Migrated teams to Team Foundation Server 2010 and established Agile project management workflows",
+      "Defined software architectures across team projects and spoke at Microsoft TechDays 2013"
+    ],
+    skills:["Software Architecture","Jenkins","SonarQube","TFS 2010","Agile","Code Audits",".NET"]
+  },
+  {
+    id:12,
+    role:".NET Engineer & Project Manager",
+    company:"Bouygues Telecom",
+    period:"Mar 2009 - Sep 2010",
+    location:"Paris Area, France",
+    description:"Agile .NET software engineering and B2B telecom project management.",
+    bullets:[
+      "Mar 2010 – Sep 2010 (.NET Engineer - Project Manager): Managed enterprise ISP (FAI) projects for B2B clients.",
+      "Mar 2009 – Mar 2010 (.NET Software Engineer): Developed enterprise applications using Agile methodologies."
+    ],
+    skills:[".NET","C#","Agile","Project Management","B2B Telecom / ISP"]
+  },
+  {
+    id:13,
+    role:"Java EE Software Engineer",
+    company:"Sellermania",
+    period:"Jan 2008 - Mar 2009",
+    location:"Paris Area, France",
+    description:"Developed and scaled a multi-marketplace e-commerce listing, pricing, and sales synchronization platform.",
+    skills:["Java EE","E-Commerce","Distributed Integrations","Web Services"]
+  },
+  {
+    id:14,
+    role:"J2EE Software Engineer",
+    company:"Atos Origin",
+    period:"Sep 2006 - Jan 2008",
+    location:"Paris Area, France",
+    description:"Embedded within CNAM/TS (Caisse Nationale de l'Assurance Maladie) on two strategic missions:",
+    bullets:[
+      "Defined and rolled out the official Java development standards and norms adopted by all CNAM/TS developers.",
+      "Developed the insured statistics access platform and executed the complete migration from Business Objects to Oracle Application Server."
+    ],
+    skills:["J2EE / Java","Oracle Application Server","Business Objects","Development Standards","Software Engineering"]
   }
 ],
 Wh=[
@@ -1020,15 +1183,15 @@ Wh=[
   },
   {
     id:148,
-    title:"Microsoft TechDays 2013 — Enterprise Architecture & Cloud Platform",
-    subtitle:"Microsoft TechDays Paris 2013 Session",
+    title:"BI Analysis with SQL Server 2012 — Microsoft TechDays 2013",
+    subtitle:"Business Intelligence & Data Analysis with SQL Server 2012",
     event:"Microsoft TechDays 2013",
     date:"Feb 2013",
     type:"Conference",
     category:"Cloud, Serverless & Architecture",
     lang:"FR",
     color:"bg-blue-600",
-    description:"Technical conference session delivered at Microsoft TechDays 2013 in Paris covering modern application architecture, ALM, and cloud platform engineering.",
+    description:"Technical conference session delivered at Microsoft TechDays 2013 in Paris covering Business Intelligence (BI) analysis and data platform capabilities with SQL Server 2012.",
     videoUrl:"#",
     slidesUrl:"https://www.slideshare.net/slideshow/techdays-2013/26146452",
     sessions:[
@@ -1656,19 +1819,21 @@ ey=({comm:p})=>r.jsxs("a",{href:p.link,target:"_blank",rel:"noopener noreferrer"
   ]})
 ]}),
 ay=({exp:p,isLast:j})=>r.jsxs("div",{className:"relative pl-8 md:pl-0",children:[
-  r.jsx("div",{className:"hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-gray-200 transform -translate-x-1/2"}),
-  r.jsxs("div",{className:"md:flex items-start justify-between mb-8 md:mb-12 group ",children:[
-    r.jsx("div",{className:"md:w-1/2 md:pr-12 md:text-right mb-2 md:mb-0",children:r.jsx("span",{className:"text-sm font-semibold text-blue-600 tracking-wider uppercase bg-blue-50 px-2 py-1 rounded inline-block",children:p.period})}),
-    r.jsx("div",{className:"absolute left-0 md:left-1/2 w-4 h-4 bg-white border-2 border-blue-600 rounded-full transform translate-y-1.5 md:-translate-x-1/2 z-10"}),
-    r.jsxs("div",{className:"md:w-1/2 md:pl-12",children:[
-      r.jsx("h3",{className:"text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors",children:p.role}),
-      r.jsxs("div",{className:"text-md text-gray-700 font-medium mb-2 flex items-center md:justify-start",children:[
-        p.company,
-        r.jsx("span",{className:"mx-2 text-gray-300",children:"•"}),
-        r.jsxs("span",{className:"text-gray-500 text-sm font-normal flex items-center",children:[r.jsx(Ch,{size:12,className:"mr-1"})," ",p.location]})
+  r.jsx("div",{className:"hidden md:block absolute left-1/4 top-0 bottom-0 w-px bg-gray-200 transform -translate-x-1/2"}),
+  r.jsxs("div",{className:"md:flex items-start justify-between mb-8 md:mb-10 group",children:[
+    r.jsx("div",{className:"md:w-1/4 md:pr-8 md:text-right mb-2 md:mb-0 pt-1",children:r.jsx("span",{className:"text-xs sm:text-sm font-semibold text-blue-600 tracking-wider uppercase bg-blue-50 px-2.5 py-1 rounded inline-block",children:p.period})}),
+    r.jsx("div",{className:"absolute left-0 md:left-1/4 w-4 h-4 bg-white border-2 border-blue-600 rounded-full transform translate-y-2 md:-translate-x-1/2 z-10"}),
+    r.jsxs("div",{className:"md:w-3/4 md:pl-8 bg-white p-5 sm:p-6 rounded-xl shadow-sm border border-gray-200 hover:border-blue-300 transition-colors",children:[
+      r.jsx("h3",{className:"text-lg sm:text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors",children:p.role}),
+      r.jsxs("div",{className:"text-sm sm:text-base text-gray-700 font-semibold mb-2 flex flex-wrap items-center gap-1",children:[
+        r.jsx("span",{children:p.company}),
+        r.jsx("span",{className:"mx-1.5 text-gray-300",children:"•"}),
+        r.jsxs("span",{className:"text-gray-500 text-xs sm:text-sm font-normal flex items-center",children:[r.jsx(Ch,{size:13,className:"mr-1"})," ",p.location]})
       ]}),
       r.jsx("p",{className:"text-gray-600 mb-3 text-sm leading-relaxed",children:p.description}),
-      r.jsx("div",{className:"flex flex-wrap gap-2",children:p.skills.map((N,m)=>r.jsx("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800",children:N},m))})
+      p.bullets&&p.bullets.length>0&&r.jsx("ul",{className:"list-disc list-inside space-y-1 text-gray-600 text-xs sm:text-sm mb-3",children:p.bullets.map((b,bi)=>r.jsx("li",{className:"leading-relaxed",children:b},bi))}),
+      p.links&&p.links.length>0&&r.jsx("div",{className:"flex flex-wrap gap-2 mb-3",children:p.links.map((lk,li)=>r.jsxs("a",{href:lk.url,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",children:[lk.url.includes("github.com")?r.jsx(D0,{size:13,className:"mr-1.5"}):r.jsx(hf,{size:13,className:"mr-1.5"}),lk.label,r.jsx(vf,{size:11,className:"ml-1"})]},li))}),
+      r.jsx("div",{className:"flex flex-wrap gap-1.5 pt-1",children:p.skills.map((N,m)=>r.jsx("span",{className:"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800",children:N},m))})
     ]})
   ]})
 ]});
