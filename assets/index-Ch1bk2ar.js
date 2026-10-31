@@ -107,9 +107,10 @@ Wh=[
     color:"bg-indigo-600",
     description:"Deep dive into isolating autonomous AI agents and untrusted LLM-generated code execution on Kubernetes using Agent Sandbox, gVisor, Kata Containers, and sub-second microVM orchestration.",
     videoUrl:"#",
-    slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/",
+    slidesUrl:"#",
+    eventUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/",
     sessions:[
-      {event:"Capitole du Libre 2026",date:"Nov 2026",slidesUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/"},
+      {event:"Capitole du Libre 2026",date:"Nov 2026",eventUrl:"https://cfp.capitoledulibre.org/cdl-2026/talk/9B7B3F/"},
       {event:"Cloud Native AI Summit Europe",date:"Oct 2026"},
       {event:"KubeCon + CloudNativeCon Europe CFP",date:"Oct 2026"}
     ]
@@ -174,8 +175,8 @@ Wh=[
     id:113,
     title:"Bienvenue dans l'ère du développeur augmenté",
     subtitle:"Welcome to the Era of the AI-Augmented Developer",
-    event:"WAX Conf & Les Filles et Les Garçons de la Tech",
-    date:"2025 - 2026",
+    event:"WAX Conf (Les Filles et Les Garçons de la Tech)",
+    date:"Oct 2026",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
     lang:"FR",
@@ -185,47 +186,63 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20",
     slidesUrl:"#",
     sessions:[
-      {event:"WAX Conf 2026",date:"Jan 2026"},
-      {event:"Les Filles et Les Garçons de la Tech",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20"}
+      {event:"WAX Conf 2026 (Les Filles et Les Garçons de la Tech)",date:"Oct 2026",eventUrl:"https://www.waxconf.fr/",videoUrl:"https://www.youtube.com/watch?v=9xLRDWZnl20"}
     ]
   },
   {
     id:105,
     title:"Un voyage dans le temps sur le passé, le présent et l'avenir de la protection de la mémoire",
-    subtitle:"An Interactive History of Memory Protection (BSides)",
-    event:"BSides & Touraine Tech",
-    date:"2025 - 2026",
+    subtitle:"An Interactive History of Memory Protection (BSides Mulhouse)",
+    event:"BSides Mulhouse & Touraine Tech",
+    date:"Feb - Oct 2025",
     type:"Conference",
     category:"Security, Network & Systems",
     lang:"FR / EN",
     color:"bg-red-600",
     description:"A time-travel journey from the 1960s to modern CPU/GPU architectures exploring segmentation, virtual memory paging, ASLR, DEP/NX bits, stack canaries, and hardware sandboxing.",
-    videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",
+    videoUrl:"https://www.youtube.com/watch?v=_evExyv8-E0",
     slidesUrl:"https://laurentgrangeau.github.io/bsides/",
     repoUrl:"https://github.com/laurentgrangeau/bsides",
     sessions:[
-      {event:"BSides (Interactive Web Timeline)",date:"2026",slidesUrl:"https://laurentgrangeau.github.io/bsides/"},
+      {event:"BSides Mulhouse 2025",date:"Oct 2025",eventUrl:"https://bsides-mulhouse.fr/schedule#cm8rh0iqa035ymd3ntaznkp5h",videoUrl:"https://www.youtube.com/watch?v=_evExyv8-E0",slidesUrl:"https://laurentgrangeau.github.io/bsides/"},
       {event:"Touraine Tech 2025",date:"Feb 2025",videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",slidesUrl:"https://laurentgrangeau.github.io/bsides/"}
     ]
   },
   {
     id:104,
     title:"MCP et A2A : Révolutionner l'Interconnexion et la Collaboration des Agents IA",
-    subtitle:"Standards et agents IA : un tour d'horizon de MCP, A2A, ADK",
-    event:"DevFest Toulouse, Devoxx Morocco & Devoxx France",
-    date:"Apr - Nov 2025",
+    subtitle:"Revolutionizing AI Agent Interconnection & Collaboration with MCP and A2A",
+    event:"DevFest Toulouse",
+    date:"Nov 2025",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
-    lang:"FR / EN",
+    lang:"FR",
     coSpeakers:"with Tony Jarriault",
     color:"bg-blue-500",
-    description:"Exploring Anthropic's Model Context Protocol (MCP), Google's Agent2Agent (A2A) protocol, and Agent Development Kit (ADK) to build interoperable, secure, and collaborative multi-agent AI architectures.",
+    description:"Exploring Anthropic's Model Context Protocol (MCP) and Google's Agent2Agent (A2A) protocol to build interoperable, secure, and collaborative multi-agent AI architectures.",
     videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA",
     slidesUrl:"#",
     sessions:[
-      {event:"DevFest Toulouse 2025",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"},
-      {event:"Devoxx Morocco 2025",date:"Nov 2025"},
-      {event:"Devoxx France 2025 (MCP, A2A & ADK)",date:"Apr 2025",videoUrl:"https://www.youtube.com/watch?v=KvJ2OfLW7PE"}
+      {event:"DevFest Toulouse 2025",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"}
+    ]
+  },
+  {
+    id:115,
+    title:"Libérer la puissance des systèmes multi-agents avec Flowise",
+    subtitle:"Unleashing Multi-Agent Systems with Flowise",
+    event:"Volcamp & DevFest Toulouse",
+    date:"May - Oct 2025",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-cyan-600",
+    description:"Designing, prototyping, and orchestrating complex multi-agent RAG and tool-calling workflows visually using Flowise and LangChain.",
+    videoUrl:"https://www.youtube.com/watch?v=Ca1DCe_8eUE",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Volcamp 2025",date:"Oct 2025",videoUrl:"https://www.youtube.com/watch?v=Ca1DCe_8eUE"},
+      {event:"DevFest Toulouse 2025",date:"May 2025"}
     ]
   },
   {
@@ -240,37 +257,19 @@ Wh=[
     coSpeakers:"with Tony Jarriault",
     color:"bg-blue-600",
     description:"Simplifying complex Kubernetes resource orchestration and composing custom platform APIs declaratively using ResourceGraphDefinitions with Kro.",
-    videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs",
+    videoUrl:"https://www.youtube.com/watch?v=pDH10q8GS1M",
     slidesUrl:"#",
     sessions:[
-      {event:"DevQuest 2025",date:"Jun 2025"},
+      {event:"DevQuest 2025",date:"Jun 2025",videoUrl:"https://www.youtube.com/watch?v=pDH10q8GS1M"},
       {event:"Cloud Nord x Alpes 2025",date:"May 2025",videoUrl:"https://www.youtube.com/watch?v=NnjwINdWSbs"},
       {event:"DevFest Toulouse CFP",date:"May 2025"}
-    ]
-  },
-  {
-    id:115,
-    title:"Libérer la puissance des systèmes multi-agents avec Flowise",
-    subtitle:"Unleashing Multi-Agent Systems with Flowise",
-    event:"DevFest Toulouse & Tech Conferences",
-    date:"May 2025",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-cyan-600",
-    description:"Designing, prototyping, and orchestrating complex multi-agent RAG and tool-calling workflows visually using Flowise and LangChain.",
-    videoUrl:"#",
-    slidesUrl:"#",
-    sessions:[
-      {event:"DevFest Toulouse 2025",date:"May 2025"}
     ]
   },
   {
     id:117,
     title:"IA et Recrutement : un match parfait ou une partie de cache-cache avec les biais ?",
     subtitle:"AI & Tech Recruitment: Perfect Match or Hide-and-Seek with Bias?",
-    event:"Les Filles et Les Garçons de la Tech & MiXiT",
+    event:"WAX Conf (Les Filles et Les Garçons de la Tech) & MiXiT",
     date:"Apr - Nov 2025",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
@@ -281,7 +280,7 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU",
     slidesUrl:"#",
     sessions:[
-      {event:"Les Filles et Les Garçons de la Tech",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU"},
+      {event:"WAX Conf 2025 (Les Filles et Les Garçons de la Tech)",date:"Nov 2025",eventUrl:"https://www.waxconf.fr/",videoUrl:"https://www.youtube.com/watch?v=1xQ_eBqMITU"},
       {event:"MiXiT 2025",date:"Apr 2025"}
     ]
   },
@@ -345,18 +344,19 @@ Wh=[
     id:109,
     title:"Kueue : Kubernetes-native Job Queueing",
     subtitle:"Batch, AI/ML & HPC Job Queueing on Kubernetes",
-    event:"KCD Suisse Romande, DevFest Toulouse, France DevOps, BreizhCamp & Voxxed Days Luxembourg",
+    event:"KCD Suisse Romande, DevFest Toulouse, DevFest Nantes, France DevOps, BreizhCamp & Voxxed Days Luxembourg",
     date:"2024 - 2025",
     type:"Conference",
     category:"Kubernetes & Platform Eng.",
     lang:"FR / EN",
     color:"bg-blue-600",
     description:"Managing batch, AI/ML training, and HPC workloads on Kubernetes with quotas, priorities, preemption, and fair resource sharing using Kubernetes-native Kueue.",
-    videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY",
+    videoUrl:"https://www.youtube.com/watch?v=Kt_yMKERrXQ",
     slidesUrl:"#",
     sessions:[
       {event:"KCD Suisse Romande 2025",date:"Sep 2025"},
       {event:"DevFest Toulouse 2024",date:"Nov 2024"},
+      {event:"DevFest Nantes 2024",date:"Oct 2024",videoUrl:"https://www.youtube.com/watch?v=Kt_yMKERrXQ"},
       {event:"France DevOps 2024",date:"Sep 2024",videoUrl:"https://www.youtube.com/watch?v=uFkHbJu0dQI"},
       {event:"BreizhCamp 2024",date:"Jun 2024"},
       {event:"Voxxed Days Luxembourg 2024",date:"Jun 2024",videoUrl:"https://www.youtube.com/watch?v=AxvPMGDS6VY"}
@@ -364,9 +364,9 @@ Wh=[
   },
   {
     id:120,
-    title:"Maximisez la productivité des développeurs avec Backstage : plongez dans l'ingénierie des plateformes",
+    title:"Maximisez la productivité des développeurs avec Backstage : plongez dans l'ingénierie des plateformes et créez un portail interne pour les développeurs",
     subtitle:"Maximize Developer Productivity with Backstage & Internal Developer Portals",
-    event:"Open Source Experience, DevFest Toulouse, Cloud Nord x Alpes & BreizhCamp",
+    event:"Open Source Experience, DevFest Toulouse, Cloud Nord & BreizhCamp",
     date:"Jun - Dec 2024",
     type:"Conference",
     category:"Kubernetes & Platform Eng.",
@@ -379,7 +379,7 @@ Wh=[
     sessions:[
       {event:"Open Source Experience 2024",date:"Dec 2024",videoUrl:"https://www.youtube.com/watch?v=LfTQITrK4Fw"},
       {event:"DevFest Toulouse 2024",date:"Nov 2024"},
-      {event:"Cloud Nord x Alpes 2024",date:"Oct 2024",videoUrl:"https://www.youtube.com/watch?v=IWhIXlVsRls"},
+      {event:"Cloud Nord 2024",date:"Oct 2024",videoUrl:"https://www.youtube.com/watch?v=IWhIXlVsRls"},
       {event:"BreizhCamp 2024",date:"Jun 2024"}
     ]
   },
@@ -412,21 +412,20 @@ Wh=[
     id:110,
     title:"Back to basics - J'ai une clé SSH, et maintenant ?",
     subtitle:"Back to Basics: I Have an SSH Key, Now What?",
-    event:"JUG SummerCamp, Sunny Tech, Poitou JUG & Touraine Tech",
-    date:"Feb - Sep 2024",
+    event:"JUG Summer Camp, Sunny Tech & Touraine Tech",
+    date:"Jan - Sep 2023",
     type:"Conference",
     category:"Security, Network & Systems",
     lang:"FR",
     coSpeakers:"with Ludovic Piot",
     color:"bg-cyan-600",
     description:"Practical deep dive into SSH key cryptography, ssh-agent forwarding pitfalls, bastion hosts, SSH certificate authorities, and hardware security keys.",
-    videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos",
+    videoUrl:"https://www.youtube.com/watch?v=MtzTMJqH01U",
     slidesUrl:"#",
     sessions:[
-      {event:"JUG SummerCamp 2024",date:"Sep 2024"},
-      {event:"Sunny Tech 2024",date:"Jul 2024"},
-      {event:"Poitou JUG 2024",date:"Mar 2024",videoUrl:"https://www.youtube.com/watch?v=MtzTMJqH01U"},
-      {event:"Touraine Tech 2024",date:"Feb 2024",videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos"}
+      {event:"JUG Summer Camp 2023",date:"Sep 2023",videoUrl:"https://www.youtube.com/watch?v=MtzTMJqH01U"},
+      {event:"Sunny Tech 2023",date:"Jul 2023",videoUrl:"https://www.youtube.com/watch?v=3qbE3dXis-g"},
+      {event:"Touraine Tech 2023",date:"Jan 2023",videoUrl:"https://www.youtube.com/watch?v=dgD2gch0Kos"}
     ]
   },
   {
@@ -448,11 +447,46 @@ Wh=[
     ]
   },
   {
+    id:142,
+    title:"Faire du Kubernetes multi-providers en mode GitOps avec Crossplane & Déploiement multi-cloud sécurisé",
+    subtitle:"Multi-Cloud GitOps Kubernetes with Crossplane & Secure Multi-Cloud Deployment",
+    event:"WAX Conf (Les Filles et Les Garçons de la Tech) & Open Source Experience",
+    date:"2021 - 2023",
+    type:"Conference",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR",
+    color:"bg-indigo-600",
+    description:"Managing multi-cloud infrastructure and Kubernetes clusters declaratively with Crossplane and GitOps while enforcing unified security guardrails.",
+    videoUrl:"https://www.youtube.com/watch?v=aG7q42QtaB8",
+    slidesUrl:"#",
+    sessions:[
+      {event:"WAX Conf 2023 (Les Filles et Les Garçons de la Tech — Crossplane)",date:"Nov 2023",eventUrl:"https://www.waxconf.fr/",videoUrl:"https://www.youtube.com/watch?v=aG7q42QtaB8"},
+      {event:"Open Source Experience 2021 (Déploiement multi-cloud sécurisé)",date:"Nov 2021",videoUrl:"https://www.youtube.com/watch?v=TmN7gURwmjU"}
+    ]
+  },
+  {
+    id:144,
+    title:"Jeux de données de mes environnements hors production : construction ou anonymisation ?",
+    subtitle:"Non-Production Test Datasets: Synthetic Generation vs. Data Anonymization",
+    event:"WAX Conf (Les Filles et Les Garçons de la Tech)",
+    date:"Nov 2023",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    color:"bg-orange-600",
+    description:"Strategies for provisioning realistic, GDPR-compliant datasets in non-production environments: comparing synthetic data generation and production data anonymization pipelines.",
+    videoUrl:"https://www.youtube.com/watch?v=-KDU62gG2gA",
+    slidesUrl:"#",
+    sessions:[
+      {event:"WAX Conf 2023 (Les Filles et Les Garçons de la Tech)",date:"Nov 2023",eventUrl:"https://www.waxconf.fr/",videoUrl:"https://www.youtube.com/watch?v=-KDU62gG2gA"}
+    ]
+  },
+  {
     id:119,
     title:"Federated Learning : Une nouvelle ère pour l'IA collaborative dans un monde soucieux de la vie privée",
     subtitle:"Federated Learning: Privacy-Preserving Collaborative AI",
-    event:"Poitou JUG & JUG SummerCamp",
-    date:"2023 - 2024",
+    event:"JUG Summer Camp",
+    date:"Sep 2023",
     type:"Conference",
     category:"GenAI, Agents & Quantum",
     lang:"FR",
@@ -461,8 +495,7 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY",
     slidesUrl:"#",
     sessions:[
-      {event:"Poitou JUG 2024",date:"Feb 2024",videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY"},
-      {event:"JUG SummerCamp 2023",date:"Sep 2023"}
+      {event:"JUG Summer Camp 2023",date:"Sep 2023",videoUrl:"https://www.youtube.com/watch?v=0qfvdSzf2xY"}
     ]
   },
   {
@@ -484,10 +517,27 @@ Wh=[
     ]
   },
   {
+    id:143,
+    title:"Au secours, mon SI est ouvert sur le Cloud !!",
+    subtitle:"Help, My Enterprise Information System Is Open to the Public Cloud!",
+    event:"DevFest Nantes",
+    date:"Oct 2022",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"FR",
+    color:"bg-red-600",
+    description:"Securing hybrid and cloud-connected enterprise architectures: identity federation, perimeterless security, network segmentation, and cloud governance.",
+    videoUrl:"https://www.youtube.com/watch?v=nNjUApac0cU",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevFest Nantes 2022",date:"Oct 2022",videoUrl:"https://www.youtube.com/watch?v=nNjUApac0cU"}
+    ]
+  },
+  {
     id:1,
     title:"GitOps: A Slightly Realistic Situation on Kubernetes",
     subtitle:"Dans le *-as-code, master/HEAD est-il vraiment une option ? Batman semble convaincu du contraire.",
-    event:"BreizhCamp & KubeCon + CloudNativeCon Europe",
+    event:"GitOps Days, BreizhCamp & KubeCon + CloudNativeCon Europe",
     date:"May - Jun 2022",
     type:"Conference",
     category:"Kubernetes & Platform Eng.",
@@ -498,6 +548,7 @@ Wh=[
     videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI",
     slidesUrl:"#",
     sessions:[
+      {event:"GitOps Days 2022 (Weaveworks)",date:"Jun 2022",videoUrl:"https://www.youtube.com/watch?v=H3KjJRI5QHY"},
       {event:"BreizhCamp 2022",date:"Jun 2022",videoUrl:"https://www.youtube.com/watch?v=FVOgb--QOhA"},
       {event:"KubeCon + CloudNativeCon Europe 2022",date:"May 2022",videoUrl:"https://www.youtube.com/watch?v=uU-zbTgbHPI"}
     ]
@@ -536,6 +587,42 @@ Wh=[
     slidesUrl:"#",
     sessions:[
       {event:"Devoxx France 2022",date:"Apr 2022",videoUrl:"https://www.youtube.com/watch?v=VNmf1Wz16uk"}
+    ]
+  },
+  {
+    id:141,
+    title:"Responding to Security Events on Kubernetes: Let's Build a Security Response Engine",
+    subtitle:"Automated Cloud-Native Runtime Security & Incident Response on Kubernetes",
+    event:"Devoxx Ukraine & Cloud France",
+    date:"2020 - 2021",
+    type:"Conference",
+    category:"Security, Network & Systems",
+    lang:"EN / FR",
+    color:"bg-red-600",
+    description:"Detecting anomalous container behavior at runtime with Falco and building an event-driven Security Response Engine on Kubernetes to isolate and remediate threats automatically.",
+    videoUrl:"https://www.youtube.com/watch?v=yIsaeS1yRrU",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Devoxx Ukraine 2021",date:"Nov 2021",videoUrl:"https://www.youtube.com/watch?v=yIsaeS1yRrU"},
+      {event:"Cloud France / Cloud Sud 2020",date:"Oct 2020",videoUrl:"https://www.youtube.com/watch?v=a_DWWCtlPtQ"}
+    ]
+  },
+  {
+    id:145,
+    title:"MTG France Clash Sessions : GreenIT vs Kubernetes & Containers vs Serverless",
+    subtitle:"Architectural Debates on Cloud Sustainability, Kubernetes, Containers & Serverless",
+    event:"MTG France",
+    date:"2020 - 2021",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    color:"bg-cyan-600",
+    description:"Live architectural clash sessions debating the environmental footprint of Kubernetes clusters (GreenIT vs. Kubernetes) and trade-offs between Containers and Serverless.",
+    videoUrl:"https://www.youtube.com/watch?v=jXiDFzUt6Ak",
+    slidesUrl:"#",
+    sessions:[
+      {event:"MTG France — Clash Session #13 (GreenIT vs Kubernetes)",date:"2021",videoUrl:"https://www.youtube.com/watch?v=jXiDFzUt6Ak"},
+      {event:"MTG France — Clash Session #2 (Containers vs Serverless)",date:"2020",videoUrl:"https://www.youtube.com/watch?v=8JETEqT_mmk"}
     ]
   },
   {
@@ -666,8 +753,8 @@ Wh=[
     id:136,
     title:"#serverless - Mettez-le en œuvre dans votre entreprise & OpenFaaS sur Docker et Kubernetes",
     subtitle:"Enterprise Serverless Adoption & FaaS Frameworks on Kubernetes",
-    event:"Voxxed Days Luxembourg, Capitole du Libre, Devoxx France, BreizhCamp & DevOps D-Day",
-    date:"2018 - 2020",
+    event:"Voxxed Days Luxembourg, Capitole du Libre, Devoxx France, BreizhCamp, DevOps D-Day & The DevOps Insights Show",
+    date:"2017 - 2020",
     type:"Conference",
     category:"Cloud, Serverless & Architecture",
     lang:"FR / EN",
@@ -683,7 +770,10 @@ Wh=[
       {event:"Devoxx France 2019",date:"Apr 2019",videoUrl:"https://www.youtube.com/watch?v=xycu-tiRTms"},
       {event:"BreizhCamp 2019 (#serverless)",date:"Mar 2019",videoUrl:"https://www.youtube.com/watch?v=gdaxX3OqfFw"},
       {event:"DevOps D-Day 2018 (OpenFaaS)",date:"Nov 2018",videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI"},
-      {event:"BreizhCamp 2018 (OpenFaaS)",date:"Mar 2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"}
+      {event:"BreizhCamp 2018 (OpenFaaS)",date:"Mar 2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"},
+      {event:"The DevOps Insights Show (Cas d'usage & démo OpenFaaS)",date:"Dec 2017",videoUrl:"https://www.youtube.com/watch?v=lhO_tQ1uCd8"},
+      {event:"The DevOps Insights Show (Retour DockerCon EU 2017 & Intro OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=XHSLI7USpeQ"},
+      {event:"The DevOps Insights Show (Q&A DockerCon et OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=wWf_PnMze8k"}
     ]
   },
   {
@@ -773,9 +863,9 @@ Wh=[
   },
   {
     id:135,
-    title:"Unleash the Cloud! Le futur du cloud hors de ses murs avec l'IoT et l'Edge Computing",
-    subtitle:"Cloud: 3 Multi-Provider Scenarios from IaaS to BaaS & Serverless",
-    event:"DevOps D-Day & Voxxed Days Luxembourg",
+    title:"Cloud : 3 scénarios multi-providers, du portage IaaS, au BaaS, au serverless en abstraction totale & Unleash the Cloud!",
+    subtitle:"Multi-Provider Cloud Portability & Edge Computing Scenarios",
+    event:"Capitole du Libre, DevOps D-Day & Voxxed Days Luxembourg",
     date:"Jun - Nov 2019",
     type:"Conference",
     category:"Cloud, Serverless & Architecture",
@@ -783,11 +873,30 @@ Wh=[
     coSpeakers:"with Ludovic Piot & Adrien Blind",
     color:"bg-cyan-600",
     description:"Extending cloud-native patterns to the Edge and evaluating multi-cloud portability across IaaS, BaaS, and full Serverless abstractions.",
-    videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ",
+    videoUrl:"https://www.youtube.com/watch?v=RWgionIagMY",
     slidesUrl:"#",
     sessions:[
-      {event:"DevOps D-Day 2019",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ"},
-      {event:"Voxxed Days Luxembourg 2019",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=ysXWglKvg_A"}
+      {event:"Capitole du Libre 2019 (Cloud : 3 scénarios multi-providers)",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=RWgionIagMY"},
+      {event:"DevOps D-Day 2019 (Unleash the Cloud!)",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=ABHsjNzQbqQ"},
+      {event:"Voxxed Days Luxembourg 2019 (Cloud : 3 scénarios multi-providers)",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=ysXWglKvg_A"}
+    ]
+  },
+  {
+    id:139,
+    title:"Kubeflow : TensorFlow on Kubernetes",
+    subtitle:"Portable, Scalable Machine Learning Pipelines on Kubernetes with Kubeflow",
+    event:"DataXDay & DevFest Nantes",
+    date:"Oct 2018 - Jan 2019",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    color:"bg-orange-600",
+    description:"Deploying, orchestrating, and scaling distributed TensorFlow training jobs, Jupyter notebooks, and model serving workflows natively on Kubernetes using Kubeflow.",
+    videoUrl:"https://www.youtube.com/watch?v=0EPXlUZUd7g",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DataXDay 2019",date:"Jan 2019",videoUrl:"https://www.youtube.com/watch?v=emV_Rudjnc4"},
+      {event:"DevFest Nantes 2018",date:"Oct 2018",videoUrl:"https://www.youtube.com/watch?v=0EPXlUZUd7g"}
     ]
   },
   {
@@ -824,6 +933,59 @@ Wh=[
       {event:"APIdays Paris 2018",date:"Dec 2018",videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8"},
       {event:"ContainerDays 2018",date:"Jun 2018",videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc"},
       {event:"Sunny Tech 2018",date:"Jun 2018",slidesUrl:"https://www.slideshare.net/laurentgrangeau"}
+    ]
+  },
+  {
+    id:140,
+    title:".NET Core functions sur Kubernetes gérés par Azure en quelques minutes",
+    subtitle:"Serverless .NET Core Functions on Managed Azure Kubernetes Service (AKS)",
+    event:"SophiaConf",
+    date:"Jul 2018",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    color:"bg-blue-500",
+    description:"Running event-driven .NET Core serverless functions in containers on Azure Kubernetes Service (AKS) with rapid provisioning and autoscaling.",
+    videoUrl:"https://www.youtube.com/watch?v=lOtVZF8fL5E",
+    slidesUrl:"#",
+    sessions:[
+      {event:"SophiaConf 2018 (Telecom Valley)",date:"Jul 2018",videoUrl:"https://www.youtube.com/watch?v=lOtVZF8fL5E"}
+    ]
+  },
+  {
+    id:147,
+    title:"How to Design a Microservices Architecture to Exploit the Benefits of Serverless",
+    subtitle:"Event-Driven Microservices & Serverless Architecture Patterns",
+    event:"Paris Serverless Architecture / Scaleway Breakathon",
+    date:"2018",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"EN",
+    color:"bg-purple-600",
+    description:"Architectural patterns for decomposing microservices into stateless, event-driven serverless functions to maximize elasticity and cost efficiency.",
+    videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Paris Serverless Architecture (Scaleway Breakathon)",date:"2018",videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s"}
+    ]
+  },
+  {
+    id:146,
+    title:"Making a Mammoth Run: Continuous Delivery & AWS-like REST APIs in a Large Bank",
+    subtitle:"Enterprise Continuous Delivery & Internal Cloud APIs in Banking",
+    event:"HashiConf, JFrog swampUP & DevOps D-Day",
+    date:"2016 - 2017",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"EN / FR",
+    color:"bg-orange-600",
+    description:"Transforming legacy banking infrastructure with automated Continuous Delivery pipelines, HashiCorp tooling, Artifactory, and self-service AWS-like REST APIs.",
+    videoUrl:"https://www.youtube.com/watch?v=B0b9sXDmhGE",
+    slidesUrl:"#",
+    sessions:[
+      {event:"HashiConf 2017 (Making a Mammoth Run: Continuous Delivery in a Bank)",date:"Sep 2017",videoUrl:"https://www.youtube.com/watch?v=B0b9sXDmhGE"},
+      {event:"JFrog swampUP 2017 (AWS-like REST API in a Large Bank)",date:"May 2017",videoUrl:"https://www.youtube.com/watch?v=ORzPD3--j6M"},
+      {event:"DevOps D-Day 2016 (Continuous Delivery en banque)",date:"Nov 2016",videoUrl:"https://www.youtube.com/watch?v=Kn6L54FnSHY"}
     ]
   },
   {
@@ -1105,9 +1267,14 @@ Ph=({conf:p})=>{
           r.jsxs("div",{className:"flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-300 transition-colors shadow-sm",children:[
             r.jsxs("div",{className:"flex items-center gap-2.5",children:[
               r.jsx("span",{className:"inline-flex items-center px-2.5 py-1 rounded text-xs font-semibold bg-gray-100 text-gray-800 flex-shrink-0",children:s.date}),
-              r.jsx("span",{className:"text-sm font-bold text-gray-900",children:s.event})
+              s.eventUrl?r.jsxs("a",{href:s.eventUrl,target:"_blank",rel:"noopener noreferrer",className:"text-sm font-bold text-gray-900 hover:text-blue-600 inline-flex items-center transition-colors",children:[s.event,r.jsx(vf,{size:13,className:"ml-1 text-blue-600"})]}):r.jsx("span",{className:"text-sm font-bold text-gray-900",children:s.event})
             ]}),
             r.jsxs("div",{className:"flex flex-wrap items-center gap-2",children:[
+              s.eventUrl&&r.jsxs("a",{href:s.eventUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-gray-100 text-gray-800 hover:bg-gray-200 border border-gray-300 transition-colors",children:[
+                r.jsx(Ah,{size:13,className:"mr-1.5 text-gray-700 flex-shrink-0"}),
+                "Schedule",
+                r.jsx(vf,{size:12,className:"ml-1"})
+              ]}),
               s.videoUrl&&r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",children:[
                 r.jsx(Th,{size:14,className:"mr-1.5 text-red-600 flex-shrink-0"}),
                 "Watch on YouTube",
@@ -1118,7 +1285,7 @@ Ph=({conf:p})=>{
                 "Slides / Deck",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
-              !s.videoUrl&&!s.slidesUrl&&r.jsx("span",{className:"text-xs font-medium text-gray-400 px-2 py-1",children:"Conference Session"})
+              !s.videoUrl&&!s.slidesUrl&&!s.eventUrl&&r.jsx("span",{className:"text-xs font-medium text-gray-400 px-2 py-1",children:"Conference Session"})
             ]})
           ]},idx)
         )})
