@@ -353,6 +353,25 @@ Wh=[
     ]
   },
   {
+    id:104,
+    title:"MCP et A2A : Révolutionner l'Interconnexion et la Collaboration des Agents IA",
+    subtitle:"Revolutionizing AI Agent Interconnection & Collaboration with MCP and A2A",
+    event:"Epitech Lyon & DevFest Toulouse",
+    date:"Nov 2025 – Apr 2026",
+    type:"Conference",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    coSpeakers:"with Tony Jarriault",
+    color:"bg-blue-500",
+    description:"Exploring Anthropic's Model Context Protocol (MCP) and Google's Agent2Agent (A2A) protocol to build interoperable, secure, and collaborative multi-agent AI architectures.",
+    videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Epitech Lyon (Conférence Campus & Retour Vidéo)",date:"Apr 2026",videoUrl:"https://www.linkedin.com/posts/retour-dintervention-laurent-grangeau-ugcPost-7442567973921263616-CAI6/"},
+      {event:"DevFest Toulouse 2025",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"}
+    ]
+  },
+  {
     id:105,
     title:"Un voyage dans le temps sur le passé, le présent et l'avenir de la protection de la mémoire",
     subtitle:"An Interactive History of Memory Protection (BSides Mulhouse)",
@@ -369,24 +388,6 @@ Wh=[
     sessions:[
       {event:"BSides Mulhouse 2025",date:"Oct 2025",eventUrl:"https://bsides-mulhouse.fr/schedule#cm8rh0iqa035ymd3ntaznkp5h",videoUrl:"https://www.youtube.com/watch?v=_evExyv8-E0",slidesUrl:"https://laurentgrangeau.github.io/bsides/"},
       {event:"Touraine Tech 2025",date:"Feb 2025",videoUrl:"https://www.youtube.com/watch?v=2HG90nxRqMc",slidesUrl:"https://laurentgrangeau.github.io/bsides/"}
-    ]
-  },
-  {
-    id:104,
-    title:"MCP et A2A : Révolutionner l'Interconnexion et la Collaboration des Agents IA",
-    subtitle:"Revolutionizing AI Agent Interconnection & Collaboration with MCP and A2A",
-    event:"DevFest Toulouse",
-    date:"Nov 2025",
-    type:"Conference",
-    category:"GenAI, Agents & Quantum",
-    lang:"FR",
-    coSpeakers:"with Tony Jarriault",
-    color:"bg-blue-500",
-    description:"Exploring Anthropic's Model Context Protocol (MCP) and Google's Agent2Agent (A2A) protocol to build interoperable, secure, and collaborative multi-agent AI architectures.",
-    videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA",
-    slidesUrl:"#",
-    sessions:[
-      {event:"DevFest Toulouse 2025",date:"Nov 2025",videoUrl:"https://www.youtube.com/watch?v=Cp0BHAqSeJA"}
     ]
   },
   {
@@ -1289,23 +1290,6 @@ Mtups=[
     ]
   },
   {
-    id:204,
-    title:"Software Architecture Fundamentals — Part 1: Architecture Soft Skills",
-    subtitle:"Essential Non-Technical Skills for Effective Software Architects",
-    event:"Software Arch Meetup",
-    date:"Dec 2016",
-    type:"Meetup",
-    category:"Cloud, Serverless & Architecture",
-    lang:"EN",
-    color:"bg-indigo-600",
-    description:"Discussing the essential non-technical and leadership skills required to be an effective software architect in modern engineering organizations.",
-    videoUrl:"#",
-    slidesUrl:"https://www.slideshare.net/slideshow/software-architecture-fundamentals-part1architecture-soft-skills/69549392",
-    sessions:[
-      {event:"Software Architecture Meetup",date:"Dec 2016",slidesUrl:"https://www.slideshare.net/slideshow/software-architecture-fundamentals-part1architecture-soft-skills/69549392"}
-    ]
-  },
-  {
     id:205,
     title:"Meetup OpenStack : At the Heart of IT Revolution",
     subtitle:"Open Source Cloud Infrastructure & Software-Defined Datacenters",
@@ -1396,23 +1380,6 @@ Pdcsts=[
 ],
 Intvws=[
   {
-    id:404,
-    title:"Epitech Lyon — Immersion Métiers du Numérique & Intelligence Artificielle",
-    subtitle:"Interview Vidéo : Les Grandes Évolutions, Usages Actuels & Défis de l'IA",
-    event:"Epitech Lyon",
-    date:"Jul 2026",
-    type:"Interview",
-    category:"Interview",
-    lang:"FR",
-    color:"bg-indigo-600",
-    description:"Interview vidéo réalisée sur le campus d'Epitech Lyon lors des deux semaines d'immersion aux métiers du numérique (conférences, ateliers pratiques et hackathon pour 120 lycéens) autour de l'intelligence artificielle, de ses usages actuels chez Google Cloud et de ses défis technologiques.",
-    videoUrl:"https://www.linkedin.com/feed/update/urn:li:activity:7480546244096950272",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Epitech Lyon — Interview Vidéo & Article Officiel",date:"Jul 2026",videoUrl:"https://www.linkedin.com/feed/update/urn:li:activity:7480546244096950272",eventUrl:"https://www.epitech.eu/2026/08/17/eleves-de-seconde-epitech-lyon-immersion-metiers-du-numerique/"}
-    ]
-  },
-  {
     id:403,
     title:"Google Hackathon: What 100 AI Students Built in 3 Months?",
     subtitle:"Building & Shipping Real-World AI Products on Google Cloud",
@@ -1427,6 +1394,23 @@ Intvws=[
     slidesUrl:"#",
     sessions:[
       {event:"Albert School × Google Hackathon",date:"May 2026",videoUrl:"https://www.youtube.com/watch?v=bgF7zEpnaWA"}
+    ]
+  },
+  {
+    id:404,
+    title:"Retour d’intervention : Laurent Grangeau de Google à Epitech Lyon",
+    subtitle:"Enjeux autour de MCP & A2A, Interconnexion des Agents IA & Partage avec les Étudiants",
+    event:"Epitech Lyon",
+    date:"Apr 2026",
+    type:"Interview",
+    category:"Interview",
+    lang:"FR",
+    color:"bg-indigo-600",
+    description:"Témoignage vidéo enregistré sur le campus d'Epitech Lyon : retour sur la conférence consacrée aux protocoles MCP (Model Context Protocol) et A2A (Agent2Agent), à la manière dont ces approches révolutionnent l'interconnexion et la collaboration entre agents IA, et aux échanges techniques avec les étudiants.",
+    videoUrl:"https://www.linkedin.com/posts/retour-dintervention-laurent-grangeau-ugcPost-7442567973921263616-CAI6/",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Epitech Lyon — Retour d’intervention en vidéo (LinkedIn)",date:"Apr 2026",videoUrl:"https://www.linkedin.com/posts/retour-dintervention-laurent-grangeau-ugcPost-7442567973921263616-CAI6/"}
     ]
   },
   {
@@ -1672,25 +1656,26 @@ Ih=({activeSection:p})=>{
     {label:"Articles",id:"articles"},
     {label:"Contact",id:"contact"}
   ];
-  return r.jsxs("nav",{className:"fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300",children:[
-    r.jsx("div",{className:"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8",children:
+  return r.jsxs("nav",{className:"fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300 border-b border-gray-100",children:[
+    r.jsx("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:
       r.jsxs("div",{className:"flex justify-between items-center h-16",children:[
         r.jsx("div",{className:"flex-shrink-0 flex items-center cursor-pointer",onClick:()=>m("hero"),children:
           r.jsxs("span",{className:"text-xl font-bold text-gray-900 tracking-tight",children:["LG",r.jsx("span",{className:"text-blue-600",children:"."})]})
         }),
-        r.jsxs("div",{className:"hidden md:flex space-x-4 lg:space-x-6 items-center",children:[
-          Y.map(H=>r.jsx("button",{onClick:()=>m(H.id),className:`${p===H.id?"text-blue-600 font-semibold":"text-gray-600 hover:text-gray-900"} transition-colors duration-200 text-sm font-medium`,children:H.label},H.id)),
-          r.jsxs("a",{href:Yl.socials.linkedin,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors",children:["Resume ",r.jsx(Nh,{size:16,className:"ml-2"})]})
+        r.jsxs("div",{className:"hidden lg:flex items-center gap-1 xl:gap-2",children:[
+          Y.map(H=>r.jsx("button",{onClick:()=>m(H.id),className:`${p===H.id?"bg-blue-50 text-blue-600 font-semibold":"text-gray-700 hover:text-blue-600 hover:bg-gray-100"} px-2.5 py-1.5 rounded-md transition-colors duration-200 text-xs xl:text-sm font-medium whitespace-nowrap`,children:H.label},H.id)),
+          r.jsxs("a",{href:Yl.socials.linkedin,target:"_blank",rel:"noopener noreferrer",className:"ml-2 inline-flex items-center px-3.5 py-1.5 border border-transparent text-xs xl:text-sm font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors whitespace-nowrap shadow-sm",children:["Resume ",r.jsx(Nh,{size:15,className:"ml-1.5"})]})
         ]}),
-        r.jsx("div",{className:"md:hidden flex items-center",children:
-          r.jsx("button",{onClick:()=>N(!j),className:"text-gray-600 hover:text-gray-900 focus:outline-none",children:j?r.jsx(wh,{size:24}):r.jsx(Rh,{size:24})})
+        r.jsx("div",{className:"lg:hidden flex items-center",children:
+          r.jsx("button",{onClick:()=>N(!j),className:"text-gray-600 hover:text-gray-900 focus:outline-none p-2",children:j?r.jsx(wh,{size:24}):r.jsx(Rh,{size:24})})
         })
       ]})
     }),
-    j&&r.jsx("div",{className:"md:hidden bg-white border-t border-gray-100",children:
-      r.jsx("div",{className:"px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-lg",children:
-        Y.map(H=>r.jsx("button",{onClick:()=>m(H.id),className:"block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50",children:H.label},H.id))
-      })
+    j&&r.jsx("div",{className:"lg:hidden bg-white border-t border-gray-100",children:
+      r.jsxs("div",{className:"px-4 pt-2 pb-4 space-y-1 sm:px-6 shadow-lg",children:[
+        Y.map(H=>r.jsx("button",{onClick:()=>m(H.id),className:`block w-full text-left px-3 py-2 rounded-md text-base font-medium ${p===H.id?"bg-blue-50 text-blue-600 font-semibold":"text-gray-700 hover:text-blue-600 hover:bg-gray-50"}`,children:H.label},H.id)),
+        r.jsxs("a",{href:Yl.socials.linkedin,target:"_blank",rel:"noopener noreferrer",className:"mt-2 w-full inline-flex items-center justify-center px-4 py-2.5 border border-transparent text-sm font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors",children:["Resume ",r.jsx(Nh,{size:16,className:"ml-2"})]})
+      ]})
     })
   ]})
 },
@@ -1726,7 +1711,7 @@ Ph=({conf:p,isMeetup:im,kind:kd})=>{
         r.jsxs("div",{className:"flex items-center justify-between mb-3 pb-2 border-b border-gray-200",children:[
           r.jsxs("span",{className:"text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center",children:[
             r.jsx(Ah,{size:14,className:"mr-1.5 text-blue-600"}),
-            `${plural} & Replays (Newest First)`
+            `${plural} & Replays`
           ]}),
           r.jsxs("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200",children:[
             sessions.length," ",sessions.length>1?plural:singular
