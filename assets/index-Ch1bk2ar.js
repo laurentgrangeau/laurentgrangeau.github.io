@@ -1177,24 +1177,62 @@ Mtups=[
 ],
 Pdcsts=[
   {
-    id:301,
-    title:"EKITE Podcast — EP24 : \"J'aime démonter des choses pour comprendre le fonctionnement\"",
-    subtitle:"Parcours, Ingénierie Système, Cloud & Curiosité Technique",
-    event:"EKITE Podcast",
-    date:"2024",
+    id:302,
+    title:"MACI #126 — L’IA quantique met un costard et se téléporte pour optimiser les règlements Européens",
+    subtitle:"IA, Puces Quantiques, Quantization Optimisée & Stratégie d'Innovation en Europe",
+    event:"Message à caractère informatique #126 (Clever Cloud @ SnowCamp 2025)",
+    date:"Feb 2025",
     type:"Podcast",
     category:"Podcast",
     lang:"FR",
-    color:"bg-purple-600",
-    description:"Épisode du podcast EKITE consacré au parcours d'ingénieur, à la curiosité technique (« démonter des choses pour comprendre comment elles fonctionnent »), au Cloud et au partage de connaissances en communauté.",
-    videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M",
+    coSpeakers:"with Horacio Gonzalez & Kevin Davin",
+    color:"bg-red-600",
+    description:"Épisode du podcast Message à caractère informatique (MACI #126 par Clever Cloud), tourné lors du SnowCamp 2025 : discussion autour de l'IA et des puces quantiques, de la quantization optimisée avec Elastic BBQ, et de la stratégie d'innovation, d'investissement et de réglementation en Europe.",
+    videoUrl:"https://www.youtube.com/watch?v=MHqlq4FDF-c",
     slidesUrl:"#",
     sessions:[
-      {event:"EKITE Podcast #24",date:"2024",videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M"}
+      {event:"Message à caractère informatique #126 (Clever Cloud)",date:"Feb 2025",videoUrl:"https://www.youtube.com/watch?v=MHqlq4FDF-c"}
     ]
   }
 ],
 Intvws=[
+  {
+    id:403,
+    title:"Google Hackathon: What 100 AI Students Built in 3 Months?",
+    subtitle:"Building & Shipping Real-World AI Products on Google Cloud",
+    event:"Albert School × Google",
+    date:"May 2026",
+    type:"Interview",
+    category:"Interview",
+    lang:"EN",
+    color:"bg-blue-600",
+    description:"Albert School partnered with Google and Prodiges for a 3-month hackathon where 100 Master's students built and shipped real AI MVPs from scratch on Google Cloud under production constraints.",
+    videoUrl:"https://www.youtube.com/watch?v=bgF7zEpnaWA",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Albert School × Google Hackathon",date:"May 2026",videoUrl:"https://www.youtube.com/watch?v=bgF7zEpnaWA"}
+    ]
+  },
+  {
+    id:402,
+    title:"La Voix de l'Innovation (EKITE) — EP24 : \"J'aime démonter des choses pour comprendre le fonctionnement\"",
+    subtitle:"Parcours, Cloud, Défis IA & Compétences Humaines (Interview + 3 Shorts)",
+    event:"EKITE — La Voix de l'Innovation (Cloud Nord)",
+    date:"Apr 2026",
+    type:"Interview & Shorts",
+    category:"Interview",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"Interview enregistrée lors de Cloud Nord dans le cadre de la saison 2 de « La Voix de l'Innovation » (EKITE) : retour sur la curiosité technique depuis l'enfance, le métier de Solutions Architect chez Google, l'équilibre entre compétences techniques et humaines dans le Cloud, et les défis de l'IA.",
+    videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M",
+    slidesUrl:"#",
+    sessions:[
+      {event:"EP24 — Interview complète : \"J'aime démonter des choses pour comprendre le fonctionnement\"",date:"Apr 2026",videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M"},
+      {event:"Short — \"Mon défi technique aujourd'hui c'est l'IA : j'apprends tellement de choses !\"",date:"Apr 2026",videoUrl:"https://www.youtube.com/shorts/zs21amSDjrs"},
+      {event:"Short — \"Mon job aujourd'hui c'est le cloud : il faut des compétences techniques et humaines\"",date:"Apr 2026",videoUrl:"https://www.youtube.com/shorts/EOXV-CDX-sE"},
+      {event:"Short — \"J'ai toujours aimé démonter les choses pour comprendre comment ça fonctionne\"",date:"Apr 2026",videoUrl:"https://www.youtube.com/shorts/0V_-Hzg9-Cs"}
+    ]
+  },
   {
     id:401,
     title:"The DevOps Insights Show — DockerCon EU, OpenFaaS & Serverless",
@@ -1492,7 +1530,7 @@ Ph=({conf:p,isMeetup:im,kind:kd})=>{
               ]}),
               s.videoUrl&&r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",children:[
                 r.jsx(Th,{size:14,className:"mr-1.5 text-red-600 flex-shrink-0"}),
-                s.videoUrl.includes("vimeo.com")?"Watch on Vimeo":"Watch on YouTube",
+                s.videoUrl.includes("vimeo.com")?"Watch on Vimeo":s.videoUrl.includes("/shorts/")?"Watch Short":"Watch on YouTube",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
               s.slidesUrl&&r.jsxs("a",{href:s.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",children:[
