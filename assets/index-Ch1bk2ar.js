@@ -1038,6 +1038,24 @@ Wh=[
 ],
 Mtups=[
   {
+    id:209,
+    title:"L'emploi tech en 2026 : IA, salaires et nouveaux profils — ce qui change vraiment",
+    subtitle:"Impact de l'IA sur les Métiers IT, Spécialisation des Profils & Évolution du Marché Tech",
+    event:"ENI École Informatique × OVHcloud Nantes",
+    date:"May 2026",
+    type:"Meetup",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    coSpeakers:"with Olivier Piers, Magali de Labareyre & Florence Lucas",
+    color:"bg-blue-600",
+    description:"Table ronde et meetup organisés en présentiel chez OVHcloud à Nantes par ENI École Informatique : comment l'IA transforme les métiers IT, les compétences incontournables attendues chez les profils tech et juniors, et la transparence des salaires.",
+    videoUrl:"https://www.youtube.com/watch?v=cee5sE6jCnc",
+    slidesUrl:"#",
+    sessions:[
+      {event:"ENI École Informatique × OVHcloud Nantes",date:"May 2026",videoUrl:"https://www.youtube.com/watch?v=cee5sE6jCnc"}
+    ]
+  },
+  {
     id:201,
     title:"Cracking the Quantum Code: Découvrons la révolution quantique !",
     subtitle:"Discovering the Quantum Computing Revolution",
@@ -1052,6 +1070,24 @@ Mtups=[
     slidesUrl:"#",
     sessions:[
       {event:"GDG Strasbourg / Capitale Dev",date:"Nov 2024",videoUrl:"https://www.youtube.com/watch?v=lEqBOsunRmQ"}
+    ]
+  },
+  {
+    id:210,
+    title:"GitOps : une mise en situation un peu réaliste sur Kubernetes avec Flux",
+    subtitle:"Hands-on DevSecOps sur Kubernetes avec Flux, Kustomize, Helm, Kyverno, Prometheus/Grafana & Istio",
+    event:"TADx (Tours Area DevOps Xperience) #32 — S4E09",
+    date:"Nov 2022",
+    type:"Meetup",
+    category:"Kubernetes & Platform Eng.",
+    lang:"FR",
+    coSpeakers:"with Ludovic Piot",
+    color:"bg-blue-600",
+    description:"Atelier hands-on DevSecOps construisant pas à pas un workflow GitOps réaliste sur Kubernetes avec Flux, Kustomize, Helm, politiques de sécurité Kyverno, observabilité Prometheus/Grafana et déploiements Blue/Green & Canary avec Istio.",
+    videoUrl:"https://www.youtube.com/watch?v=5kBskAroPoM",
+    slidesUrl:"#",
+    sessions:[
+      {event:"TADx S4E09 (#32) — Mame, Tours",date:"Nov 2022",eventUrl:"https://www.tadx.fr/2022-11-28-32-eme-event",videoUrl:"https://www.youtube.com/watch?v=5kBskAroPoM"}
     ]
   },
   {
@@ -1196,6 +1232,23 @@ Pdcsts=[
   }
 ],
 Intvws=[
+  {
+    id:404,
+    title:"Epitech Lyon — Immersion Métiers du Numérique & Intelligence Artificielle",
+    subtitle:"Interview Vidéo : Les Grandes Évolutions, Usages Actuels & Défis de l'IA",
+    event:"Epitech Lyon",
+    date:"Jul 2026",
+    type:"Interview",
+    category:"Interview",
+    lang:"FR",
+    color:"bg-indigo-600",
+    description:"Interview vidéo réalisée sur le campus d'Epitech Lyon lors des deux semaines d'immersion aux métiers du numérique (conférences, ateliers pratiques et hackathon pour 120 lycéens) autour de l'intelligence artificielle, de ses usages actuels chez Google Cloud et de ses défis technologiques.",
+    videoUrl:"https://www.linkedin.com/feed/update/urn:li:activity:7480546244096950272",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Epitech Lyon — Interview Vidéo & Article Officiel",date:"Jul 2026",videoUrl:"https://www.linkedin.com/feed/update/urn:li:activity:7480546244096950272",eventUrl:"https://www.epitech.eu/2026/08/17/eleves-de-seconde-epitech-lyon-immersion-metiers-du-numerique/"}
+    ]
+  },
   {
     id:403,
     title:"Google Hackathon: What 100 AI Students Built in 3 Months?",
@@ -1530,7 +1583,7 @@ Ph=({conf:p,isMeetup:im,kind:kd})=>{
               ]}),
               s.videoUrl&&r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",children:[
                 r.jsx(Th,{size:14,className:"mr-1.5 text-red-600 flex-shrink-0"}),
-                s.videoUrl.includes("vimeo.com")?"Watch on Vimeo":s.videoUrl.includes("/shorts/")?"Watch Short":"Watch on YouTube",
+                s.videoUrl.includes("vimeo.com")?"Watch on Vimeo":s.videoUrl.includes("linkedin.com")?"Watch on LinkedIn":s.videoUrl.includes("/shorts/")?"Watch Short":"Watch on YouTube",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
               s.slidesUrl&&r.jsxs("a",{href:s.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",children:[
