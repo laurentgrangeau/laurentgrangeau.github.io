@@ -751,29 +751,24 @@ Wh=[
   },
   {
     id:136,
-    title:"#serverless - Mettez-le en œuvre dans votre entreprise & OpenFaaS sur Docker et Kubernetes",
-    subtitle:"Enterprise Serverless Adoption & FaaS Frameworks on Kubernetes",
-    event:"Voxxed Days Luxembourg, Capitole du Libre, Devoxx France, BreizhCamp, DevOps D-Day & The DevOps Insights Show",
-    date:"2017 - 2020",
+    title:"#serverless - 🛳️ mettez-le en œuvre dans votre entreprise et arrivez à bon port",
+    subtitle:"Enterprise Serverless Adoption, Architecture Patterns & 2 Years of Production Feedback",
+    event:"Voxxed Days Luxembourg, Capitole du Libre, Devoxx France & BreizhCamp",
+    date:"Mar 2019 - Jun 2020",
     type:"Conference",
     category:"Cloud, Serverless & Architecture",
-    lang:"FR / EN",
-    coSpeakers:"with Ludovic Piot & Adrien Blind",
+    lang:"FR",
+    coSpeakers:"with Ludovic Piot, Adrien Blind & Laurent Doguin",
     color:"bg-purple-600",
-    description:"Comparing open-source FaaS frameworks on Docker and Kubernetes (OpenFaaS, Knative, Kubeless) and multi-year enterprise serverless feedback.",
+    description:"Multi-year enterprise feedback and hands-on patterns for adopting Serverless in production across cloud providers and Kubernetes.",
     videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0",
     slidesUrl:"#",
     sessions:[
-      {event:"Voxxed Days Luxembourg 2020 (2 ans de REX)",date:"Jun 2020",videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0"},
+      {event:"Voxxed Days Luxembourg 2020 (#serverless - 2 ans de retours d'expérience)",date:"Jun 2020",videoUrl:"https://www.youtube.com/watch?v=0x6LaYk5PP0"},
       {event:"Capitole du Libre 2019",date:"Nov 2019",videoUrl:"https://www.youtube.com/watch?v=x6o5aYvqBpA"},
-      {event:"Voxxed Days Luxembourg 2019 (FaaS & Furious)",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=zyDDOWRnjKw"},
+      {event:"Voxxed Days Luxembourg 2019 (FaaS & Furious : 3h pour devenir une star du serverless)",date:"Jun 2019",videoUrl:"https://www.youtube.com/watch?v=zyDDOWRnjKw"},
       {event:"Devoxx France 2019",date:"Apr 2019",videoUrl:"https://www.youtube.com/watch?v=xycu-tiRTms"},
-      {event:"BreizhCamp 2019 (#serverless)",date:"Mar 2019",videoUrl:"https://www.youtube.com/watch?v=gdaxX3OqfFw"},
-      {event:"DevOps D-Day 2018 (OpenFaaS)",date:"Nov 2018",videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI"},
-      {event:"BreizhCamp 2018 (OpenFaaS)",date:"Mar 2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"},
-      {event:"The DevOps Insights Show (Cas d'usage & démo OpenFaaS)",date:"Dec 2017",videoUrl:"https://www.youtube.com/watch?v=lhO_tQ1uCd8"},
-      {event:"The DevOps Insights Show (Retour DockerCon EU 2017 & Intro OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=XHSLI7USpeQ"},
-      {event:"The DevOps Insights Show (Q&A DockerCon et OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=wWf_PnMze8k"}
+      {event:"BreizhCamp 2019",date:"Mar 2019",videoUrl:"https://www.youtube.com/watch?v=gdaxX3OqfFw"}
     ]
   },
   {
@@ -882,6 +877,23 @@ Wh=[
     ]
   },
   {
+    id:149,
+    title:"Knative, OpenFaaS, Kubeless : la guerre des frameworks serverless est lancée !",
+    subtitle:"Comparing Serverless Frameworks on Kubernetes: Knative vs. OpenFaaS vs. Kubeless",
+    event:"MiXiT 2019",
+    date:"May 2019",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"Tracing the genesis of Kubernetes-native serverless frameworks and comparing the architecture, trade-offs, and developer experience of Knative, OpenFaaS, and Kubeless.",
+    videoUrl:"https://vimeo.com/340079567",
+    slidesUrl:"#",
+    sessions:[
+      {event:"MiXiT 2019",date:"May 2019",videoUrl:"https://vimeo.com/340079567"}
+    ]
+  },
+  {
     id:139,
     title:"Kubeflow : TensorFlow on Kubernetes",
     subtitle:"Portable, Scalable Machine Learning Pipelines on Kubernetes with Kubeflow",
@@ -918,8 +930,8 @@ Wh=[
   },
   {
     id:138,
-    title:"Microservices de la bonne façon : une introduction à Istio",
-    subtitle:"Microservices the Right Way: An Introduction to Istio Service Mesh",
+    title:"Microservices the Right Way: An Introduction to Istio",
+    subtitle:"Microservices de la bonne façon : une introduction à Istio Service Mesh",
     event:"APIdays Paris, ContainerDays & Sunny Tech",
     date:"Jun - Dec 2018",
     type:"Conference",
@@ -928,11 +940,29 @@ Wh=[
     color:"bg-blue-600",
     description:"Introducing Service Mesh architecture with Istio and Envoy on Kubernetes for traffic management, canary releases, distributed tracing, and mTLS security.",
     videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8",
-    slidesUrl:"https://www.slideshare.net/laurentgrangeau",
+    slidesUrl:"https://www.slideshare.net/slideshow/microservices-the-right-way-an-introduction-to-istio/103594074",
     sessions:[
-      {event:"APIdays Paris 2018",date:"Dec 2018",videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8"},
-      {event:"ContainerDays 2018",date:"Jun 2018",videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc"},
-      {event:"Sunny Tech 2018",date:"Jun 2018",slidesUrl:"https://www.slideshare.net/laurentgrangeau"}
+      {event:"APIdays Paris 2018",date:"Dec 2018",videoUrl:"https://www.youtube.com/watch?v=Hq5MhB42FT8",slidesUrl:"https://www.slideshare.net/slideshow/microservices-the-right-way-an-introduction-to-istio/103594074"},
+      {event:"ContainerDays 2018",date:"Jun 2018",videoUrl:"https://www.youtube.com/watch?v=Ze5GbBePrLc",slidesUrl:"https://www.slideshare.net/slideshow/microservices-the-right-way-an-introduction-to-istio/103594074"},
+      {event:"Sunny Tech 2018",date:"Jun 2018",slidesUrl:"https://www.slideshare.net/slideshow/microservices-the-right-way-an-introduction-to-istio/103594074"}
+    ]
+  },
+  {
+    id:150,
+    title:"OpenFaaS : a serverless framework on top of Docker and Kubernetes",
+    subtitle:"Serverless Functions Made Simple on Docker Swarm & Kubernetes",
+    event:"DevOps D-Day & BreizhCamp",
+    date:"Mar - Nov 2018",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR / EN",
+    color:"bg-blue-600",
+    description:"Building, packaging, and auto-scaling event-driven serverless functions in any language on top of Docker and Kubernetes with OpenFaaS.",
+    videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI",
+    slidesUrl:"#",
+    sessions:[
+      {event:"DevOps D-Day 2018",date:"Nov 2018",videoUrl:"https://www.youtube.com/watch?v=MkHA1cHzwQI"},
+      {event:"BreizhCamp 2018",date:"Mar 2018",videoUrl:"https://www.youtube.com/watch?v=Hza3U8QA9w0"}
     ]
   },
   {
@@ -950,23 +980,6 @@ Wh=[
     slidesUrl:"#",
     sessions:[
       {event:"SophiaConf 2018 (Telecom Valley)",date:"Jul 2018",videoUrl:"https://www.youtube.com/watch?v=lOtVZF8fL5E"}
-    ]
-  },
-  {
-    id:147,
-    title:"How to Design a Microservices Architecture to Exploit the Benefits of Serverless",
-    subtitle:"Event-Driven Microservices & Serverless Architecture Patterns",
-    event:"Paris Serverless Architecture / Scaleway Breakathon",
-    date:"2018",
-    type:"Conference",
-    category:"Cloud, Serverless & Architecture",
-    lang:"EN",
-    color:"bg-purple-600",
-    description:"Architectural patterns for decomposing microservices into stateless, event-driven serverless functions to maximize elasticity and cost efficiency.",
-    videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s",
-    slidesUrl:"#",
-    sessions:[
-      {event:"Paris Serverless Architecture (Scaleway Breakathon)",date:"2018",videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s"}
     ]
   },
   {
@@ -990,19 +1003,216 @@ Wh=[
   },
   {
     id:3,
-    title:"Software Architecture Fundamentals & DockerCon: The Missing Piece",
+    title:"DockerCon: The Missing Piece",
     subtitle:"When Docker Networking Unleashes Software Architecture 2.0",
-    event:"DockerCon EU, PioneersIO & Software Arch Meetup",
+    event:"DockerCon EU",
     date:"Nov 2015",
     type:"Keynote",
     category:"Security, Network & Systems",
     lang:"EN",
     color:"bg-blue-500",
-    description:"How container networking transforms distributed software architecture, alongside the essential technical and soft skills required of modern software architects.",
+    description:"When Docker networking unleashes software architecture 2.0. A deep dive into how container networking changes the way we design distributed systems.",
     videoUrl:"#",
     slidesUrl:"https://www.slideshare.net/slideshow/dockercon-the-missing-piece-when-docker-networking-unleashes-software-archtecture-20/56140190",
     sessions:[
       {event:"DockerCon EU 2015",date:"Nov 2015",slidesUrl:"https://www.slideshare.net/slideshow/dockercon-the-missing-piece-when-docker-networking-unleashes-software-archtecture-20/56140190"}
+    ]
+  },
+  {
+    id:148,
+    title:"Microsoft TechDays 2013 — Enterprise Architecture & Cloud Platform",
+    subtitle:"Microsoft TechDays Paris 2013 Session",
+    event:"Microsoft TechDays 2013",
+    date:"Feb 2013",
+    type:"Conference",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    color:"bg-blue-600",
+    description:"Technical conference session delivered at Microsoft TechDays 2013 in Paris covering modern application architecture, ALM, and cloud platform engineering.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/techdays-2013/26146452",
+    sessions:[
+      {event:"Microsoft TechDays 2013",date:"Feb 2013",slidesUrl:"https://www.slideshare.net/slideshow/techdays-2013/26146452"}
+    ]
+  }
+],
+Mtups=[
+  {
+    id:201,
+    title:"Cracking the Quantum Code: Découvrons la révolution quantique !",
+    subtitle:"Discovering the Quantum Computing Revolution",
+    event:"GDG Strasbourg & Tech Meetups",
+    date:"Nov 2024",
+    type:"Meetup",
+    category:"GenAI, Agents & Quantum",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"Demystifying qubits, quantum superposition, entanglement, quantum gates, Shor's algorithm, and post-quantum cryptography for software engineers and architects.",
+    videoUrl:"https://www.youtube.com/watch?v=lEqBOsunRmQ",
+    slidesUrl:"#",
+    sessions:[
+      {event:"GDG Strasbourg / Capitale Dev",date:"Nov 2024",videoUrl:"https://www.youtube.com/watch?v=lEqBOsunRmQ"}
+    ]
+  },
+  {
+    id:202,
+    title:"MTG France Clash Sessions : GreenIT vs Kubernetes & Containers vs Serverless",
+    subtitle:"Architectural Debates on Cloud Sustainability, Kubernetes, Containers & Serverless",
+    event:"MTG France",
+    date:"2020 - 2021",
+    type:"Meetup",
+    category:"Cloud, Serverless & Architecture",
+    lang:"FR",
+    color:"bg-cyan-600",
+    description:"Live architectural clash sessions debating the environmental footprint of Kubernetes clusters (GreenIT vs. Kubernetes) and trade-offs between Containers and Serverless.",
+    videoUrl:"https://www.youtube.com/watch?v=jXiDFzUt6Ak",
+    slidesUrl:"#",
+    sessions:[
+      {event:"MTG France — Clash Session #13 (GreenIT vs Kubernetes)",date:"2021",videoUrl:"https://www.youtube.com/watch?v=jXiDFzUt6Ak"},
+      {event:"MTG France — Clash Session #2 (Containers vs Serverless)",date:"2020",videoUrl:"https://www.youtube.com/watch?v=8JETEqT_mmk"}
+    ]
+  },
+  {
+    id:203,
+    title:"How to Design a Microservices Architecture to Exploit the Benefits of Serverless",
+    subtitle:"Event-Driven Microservices & Serverless Architecture Patterns",
+    event:"Paris Serverless Architecture Meetup",
+    date:"2018",
+    type:"Meetup",
+    category:"Cloud, Serverless & Architecture",
+    lang:"EN",
+    color:"bg-purple-600",
+    description:"Architectural patterns for decomposing microservices into stateless, event-driven serverless functions to maximize elasticity and cost efficiency.",
+    videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s",
+    slidesUrl:"#",
+    sessions:[
+      {event:"Paris Serverless Architecture Meetup (Scaleway Breakathon)",date:"2018",videoUrl:"https://www.youtube.com/watch?v=c0E4lrdjr1s"}
+    ]
+  },
+  {
+    id:204,
+    title:"Software Architecture Fundamentals — Part 1: Architecture Soft Skills",
+    subtitle:"Essential Non-Technical Skills for Effective Software Architects",
+    event:"Software Arch Meetup",
+    date:"Dec 2016",
+    type:"Meetup",
+    category:"Cloud, Serverless & Architecture",
+    lang:"EN",
+    color:"bg-indigo-600",
+    description:"Discussing the essential non-technical and leadership skills required to be an effective software architect in modern engineering organizations.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/software-architecture-fundamentals-part1architecture-soft-skills/69549392",
+    sessions:[
+      {event:"Software Architecture Meetup",date:"Dec 2016",slidesUrl:"https://www.slideshare.net/slideshow/software-architecture-fundamentals-part1architecture-soft-skills/69549392"}
+    ]
+  },
+  {
+    id:205,
+    title:"Meetup OpenStack : At the Heart of IT Revolution",
+    subtitle:"Open Source Cloud Infrastructure & Software-Defined Datacenters",
+    event:"Meetup OpenStack",
+    date:"Dec 2015",
+    type:"Meetup",
+    category:"Cloud, Serverless & Architecture",
+    lang:"EN",
+    color:"bg-red-600",
+    description:"How OpenStack and software-defined infrastructure sit at the heart of the enterprise IT and cloud computing revolution.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/meetup-openstack/56140123",
+    sessions:[
+      {event:"Meetup OpenStack",date:"Dec 2015",slidesUrl:"https://www.slideshare.net/slideshow/meetup-openstack/56140123"}
+    ]
+  },
+  {
+    id:206,
+    title:"Meetup Docker : Container Ecosystem & Orchestration",
+    subtitle:"Building, Shipping, and Running Distributed Applications with Docker",
+    event:"Meetup Docker",
+    date:"Nov 2015",
+    type:"Meetup",
+    category:"Kubernetes & Platform Eng.",
+    lang:"EN",
+    color:"bg-blue-600",
+    description:"Deep dive into the Docker container ecosystem, image layering, composition, and multi-host container orchestration.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/meetup-docker/55758869",
+    sessions:[
+      {event:"Meetup Docker",date:"Nov 2015",slidesUrl:"https://www.slideshare.net/slideshow/meetup-docker/55758869"}
+    ]
+  },
+  {
+    id:207,
+    title:"Meetup Mesos : Distributed Systems Kernel & Cluster Management",
+    subtitle:"Datacenter-Scale Resource Scheduling with Apache Mesos & Marathon",
+    event:"Meetup Mesos",
+    date:"Nov 2015",
+    type:"Meetup",
+    category:"Kubernetes & Platform Eng.",
+    lang:"EN",
+    color:"bg-indigo-600",
+    description:"Abstracting CPU, memory, storage, and compute resources across datacenter clusters using Apache Mesos and Marathon.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/meetup-mesos/55758696",
+    sessions:[
+      {event:"Meetup Mesos",date:"Nov 2015",slidesUrl:"https://www.slideshare.net/slideshow/meetup-mesos/55758696"}
+    ]
+  },
+  {
+    id:208,
+    title:"PioneersIO — Networking with Docker",
+    subtitle:"Container Networking Models, Overlay Networks & Service Discovery",
+    event:"PioneersIO Meetup",
+    date:"Oct 2015",
+    type:"Meetup",
+    category:"Security, Network & Systems",
+    lang:"EN",
+    color:"bg-cyan-600",
+    description:"Understanding the container networking paradigm, libnetwork, bridge vs. overlay networks, and managing multi-container connectivity in Docker.",
+    videoUrl:"#",
+    slidesUrl:"https://www.slideshare.net/slideshow/pioneersio-networking-with-docker/55348898",
+    sessions:[
+      {event:"PioneersIO Meetup",date:"Oct 2015",slidesUrl:"https://www.slideshare.net/slideshow/pioneersio-networking-with-docker/55348898"}
+    ]
+  }
+],
+Pdcsts=[
+  {
+    id:301,
+    title:"EKITE Podcast — EP24 : \"J'aime démonter des choses pour comprendre le fonctionnement\"",
+    subtitle:"Parcours, Ingénierie Système, Cloud & Curiosité Technique",
+    event:"EKITE Podcast",
+    date:"2024",
+    type:"Podcast",
+    category:"Podcast",
+    lang:"FR",
+    color:"bg-purple-600",
+    description:"Épisode du podcast EKITE consacré au parcours d'ingénieur, à la curiosité technique (« démonter des choses pour comprendre comment elles fonctionnent »), au Cloud et au partage de connaissances en communauté.",
+    videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M",
+    slidesUrl:"#",
+    sessions:[
+      {event:"EKITE Podcast #24",date:"2024",videoUrl:"https://www.youtube.com/watch?v=waT3YBtF86M"}
+    ]
+  }
+],
+Intvws=[
+  {
+    id:401,
+    title:"The DevOps Insights Show — DockerCon EU, OpenFaaS & Serverless",
+    subtitle:"Interviews, Retours d'Expérience, Live Demos & Q&A sur OpenFaaS et Docker",
+    event:"The DevOps Insights Show (3 Épisodes)",
+    date:"Nov – Dec 2017",
+    type:"Interview",
+    category:"Interview",
+    lang:"FR",
+    coSpeakers:"with Adrien Blind",
+    color:"bg-emerald-600",
+    description:"Série de 3 émissions The DevOps Insights Show consacrées au retour de la DockerCon EU 2017, à la présentation du framework serverless OpenFaaS, aux cas d'usage concrets avec démonstration live et aux sessions de Questions/Réponses.",
+    videoUrl:"https://www.youtube.com/watch?v=lhO_tQ1uCd8",
+    slidesUrl:"#",
+    sessions:[
+      {event:"The DevOps Insights Show (Cas d'usage & démo OpenFaaS)",date:"Dec 2017",videoUrl:"https://www.youtube.com/watch?v=lhO_tQ1uCd8"},
+      {event:"The DevOps Insights Show (Retour DockerCon EU 2017 & intro OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=XHSLI7USpeQ"},
+      {event:"The DevOps Insights Show (Q&A DockerCon & OpenFaaS)",date:"Nov 2017",videoUrl:"https://www.youtube.com/watch?v=wWf_PnMze8k"}
     ]
   }
 ],
@@ -1198,7 +1408,10 @@ Ih=({activeSection:p})=>{
   Y=[
     {label:"About",id:"about"},
     {label:"Experience",id:"experience"},
-    {label:"Speaking",id:"speaking"},
+    {label:"Conferences",id:"speaking"},
+    {label:"Meetups",id:"meetups"},
+    {label:"Podcasts",id:"podcasts"},
+    {label:"Interviews",id:"interviews"},
     {label:"Courses",id:"courses"},
     {label:"Community",id:"community"},
     {label:"Publications",id:"publications"},
@@ -1211,7 +1424,7 @@ Ih=({activeSection:p})=>{
         r.jsx("div",{className:"flex-shrink-0 flex items-center cursor-pointer",onClick:()=>m("hero"),children:
           r.jsxs("span",{className:"text-xl font-bold text-gray-900 tracking-tight",children:["LG",r.jsx("span",{className:"text-blue-600",children:"."})]})
         }),
-        r.jsxs("div",{className:"hidden md:flex space-x-6 lg:space-x-8 items-center",children:[
+        r.jsxs("div",{className:"hidden md:flex space-x-4 lg:space-x-6 items-center",children:[
           Y.map(H=>r.jsx("button",{onClick:()=>m(H.id),className:`${p===H.id?"text-blue-600 font-semibold":"text-gray-600 hover:text-gray-900"} transition-colors duration-200 text-sm font-medium`,children:H.label},H.id)),
           r.jsxs("a",{href:Yl.socials.linkedin,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors",children:["Resume ",r.jsx(Nh,{size:16,className:"ml-2"})]})
         ]}),
@@ -1231,10 +1444,12 @@ Au=({title:p,subtitle:j})=>r.jsxs("div",{className:"mb-12 text-center",children:
   r.jsx("h2",{className:"text-3xl font-bold text-gray-900 sm:text-4xl",children:p}),
   j&&r.jsx("p",{className:"mt-4 text-lg text-gray-500 max-w-2xl mx-auto",children:j})
 ]}),
-Ph=({conf:p})=>{
+Ph=({conf:p,isMeetup:im,kind:kd})=>{
   const N=p.slidesUrl&&p.slidesUrl!=="#",
   m=p.repoUrl&&p.repoUrl!=="#",
-  sessions=p.sessions&&p.sessions.length>0?p.sessions:[{event:p.event,date:p.date,videoUrl:p.videoUrl!=="#"?p.videoUrl:void 0,slidesUrl:p.slidesUrl!=="#"?p.slidesUrl:void 0}];
+  sessions=p.sessions&&p.sessions.length>0?p.sessions:[{event:p.event,date:p.date,videoUrl:p.videoUrl!=="#"?p.videoUrl:void 0,slidesUrl:p.slidesUrl!=="#"?p.slidesUrl:void 0}],
+  singular=kd||(im?"Meetup":"Conference"),
+  plural=singular==="Podcast"?"Podcasts":singular==="Interview"?"Interviews":singular==="Meetup"?"Meetups":"Conferences";
   return r.jsxs("div",{className:"w-full bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200",children:[
     r.jsx("div",{className:`h-2 ${p.color} w-full`}),
     r.jsxs("div",{className:"p-6 sm:px-8 flex flex-col lg:flex-row gap-6 justify-between",children:[
@@ -1257,10 +1472,10 @@ Ph=({conf:p})=>{
         r.jsxs("div",{className:"flex items-center justify-between mb-3 pb-2 border-b border-gray-200",children:[
           r.jsxs("span",{className:"text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center",children:[
             r.jsx(Ah,{size:14,className:"mr-1.5 text-blue-600"}),
-            "Conferences & Replays (Newest First)"
+            `${plural} & Replays (Newest First)`
           ]}),
           r.jsxs("span",{className:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200",children:[
-            sessions.length," ",sessions.length>1?"Conferences":"Conference"
+            sessions.length," ",sessions.length>1?plural:singular
           ]})
         ]}),
         r.jsx("div",{className:"flex flex-col gap-2",children:sessions.map((s,idx)=>
@@ -1272,12 +1487,12 @@ Ph=({conf:p})=>{
             r.jsxs("div",{className:"flex flex-wrap items-center gap-2",children:[
               s.eventUrl&&r.jsxs("a",{href:s.eventUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-gray-100 text-gray-800 hover:bg-gray-200 border border-gray-300 transition-colors",children:[
                 r.jsx(Ah,{size:13,className:"mr-1.5 text-gray-700 flex-shrink-0"}),
-                "Schedule",
+                "Event Page",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
               s.videoUrl&&r.jsxs("a",{href:s.videoUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 transition-colors",children:[
                 r.jsx(Th,{size:14,className:"mr-1.5 text-red-600 flex-shrink-0"}),
-                "Watch on YouTube",
+                s.videoUrl.includes("vimeo.com")?"Watch on Vimeo":"Watch on YouTube",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
               s.slidesUrl&&r.jsxs("a",{href:s.slidesUrl,target:"_blank",rel:"noopener noreferrer",className:"inline-flex items-center px-3 py-1.5 rounded-md text-xs font-semibold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors",children:[
@@ -1285,7 +1500,7 @@ Ph=({conf:p})=>{
                 "Slides / Deck",
                 r.jsx(vf,{size:12,className:"ml-1"})
               ]}),
-              !s.videoUrl&&!s.slidesUrl&&!s.eventUrl&&r.jsx("span",{className:"text-xs font-medium text-gray-400 px-2 py-1",children:"Conference Session"})
+              !s.videoUrl&&!s.slidesUrl&&!s.eventUrl&&r.jsx("span",{className:"text-xs font-medium text-gray-400 px-2 py-1",children:`${singular} Session`})
             ]})
           ]},idx)
         )})
@@ -1371,6 +1586,8 @@ function uy(){
   [cat,setCat]=$t.useState("All"),
   [showAll,setShowAll]=$t.useState(!1),
   [search,setSearch]=$t.useState(""),
+  [mCat,setMCat]=$t.useState("All"),
+  [mSearch,setMSearch]=$t.useState(""),
   categories=["All","GenAI, Agents & Quantum","Kubernetes & Platform Eng.","Security, Network & Systems","Cloud, Serverless & Architecture"],
   filteredConfs=Wh.filter(c=>{
     const matchCat=cat==="All"||c.category===cat,
@@ -1379,10 +1596,17 @@ function uy(){
     matchSearch=!q||c.title.toLowerCase().includes(q)||(c.subtitle&&c.subtitle.toLowerCase().includes(q))||c.description.toLowerCase().includes(q)||c.event.toLowerCase().includes(q)||sessionsText.includes(q)||(c.coSpeakers&&c.coSpeakers.toLowerCase().includes(q));
     return matchCat&&matchSearch
   }),
-  displayedConfs=cat==="All"&&!search.trim()&&!showAll?filteredConfs.slice(0,15):filteredConfs;
+  displayedConfs=cat==="All"&&!search.trim()&&!showAll?filteredConfs.slice(0,15):filteredConfs,
+  filteredMeetups=Mtups.filter(c=>{
+    const matchCat=mCat==="All"||c.category===mCat,
+    q=mSearch.trim().toLowerCase(),
+    sessionsText=(c.sessions||[]).map(s=>`${s.event} ${s.date}`).join(" ").toLowerCase(),
+    matchSearch=!q||c.title.toLowerCase().includes(q)||(c.subtitle&&c.subtitle.toLowerCase().includes(q))||c.description.toLowerCase().includes(q)||c.event.toLowerCase().includes(q)||sessionsText.includes(q)||(c.coSpeakers&&c.coSpeakers.toLowerCase().includes(q));
+    return matchCat&&matchSearch
+  });
   return $t.useEffect(()=>{
     const N=()=>{
-      const m=["hero","about","experience","speaking","courses","community","publications","articles","contact"];
+      const m=["hero","about","experience","speaking","meetups","podcasts","interviews","courses","community","publications","articles","contact"];
       for(const Y of m){
         const H=document.getElementById(Y);
         if(H){
@@ -1472,7 +1696,35 @@ function uy(){
         ]})
       ]})
     }),
-    r.jsx("section",{id:"courses",className:"py-20 bg-gray-50 border-t border-gray-100",children:
+    r.jsx("section",{id:"meetups",className:"py-20 bg-gray-50 border-t border-gray-100",children:
+      r.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[
+        r.jsx(Au,{title:"Meetups & Community Talks",subtitle:`All ${Mtups.length} meetup talks and live community sessions (${Mtups.reduce((a,c)=>a+(c.sessions?c.sessions.length:1),0)} sessions across user groups, with video replays).`}),
+        r.jsxs("div",{className:"flex flex-col md:flex-row items-center justify-between gap-4 mb-8",children:[
+          r.jsx("div",{className:"flex flex-wrap justify-center gap-2",children:categories.map(c=>{
+            const count=c==="All"?Mtups.length:Mtups.filter(x=>x.category===c).length,
+            active=mCat===c;
+            return r.jsxs("button",{onClick:()=>setMCat(c),className:`px-3.5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${active?"bg-blue-600 text-white shadow-sm":"bg-white border border-gray-200 text-gray-700 hover:bg-gray-100"}`,children:[c," (",count,")"]},c)
+          })}),
+          r.jsx("div",{className:"w-full md:w-72",children:
+            r.jsx("input",{type:"text",value:mSearch,onChange:e=>setMSearch(e.target.value),placeholder:"Search meetups, user groups (MTG, Cloud France...)",className:"w-full px-4 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600 bg-white"})
+          })
+        ]}),
+        r.jsx("div",{className:"flex flex-col gap-6 mt-6 w-full",children:filteredMeetups.map(N=>r.jsx(Ph,{conf:N,isMeetup:!0},N.id))})
+      ]})
+    }),
+    r.jsx("section",{id:"podcasts",className:"py-20 bg-white border-t border-gray-100",children:
+      r.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[
+        r.jsx(Au,{title:"Podcasts",subtitle:`Podcast episodes and audio/video conversations (${Pdcsts.reduce((a,c)=>a+(c.sessions?c.sessions.length:1),0)} episodes).`}),
+        r.jsx("div",{className:"flex flex-col gap-6 mt-6 w-full",children:Pdcsts.map(N=>r.jsx(Ph,{conf:N,kind:"Podcast"},N.id))})
+      ]})
+    }),
+    r.jsx("section",{id:"interviews",className:"py-20 bg-gray-50 border-t border-gray-100",children:
+      r.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[
+        r.jsx(Au,{title:"Interviews & Media Shows",subtitle:`Live interviews, tech shows, and Q&A sessions (${Intvws.reduce((a,c)=>a+(c.sessions?c.sessions.length:1),0)} episodes).`}),
+        r.jsx("div",{className:"flex flex-col gap-6 mt-6 w-full",children:Intvws.map(N=>r.jsx(Ph,{conf:N,kind:"Interview"},N.id))})
+      ]})
+    }),
+    r.jsx("section",{id:"courses",className:"py-20 bg-white border-t border-gray-100",children:
       r.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[
         r.jsx(Au,{title:Dc.title,subtitle:Dc.subtitle}),
         r.jsx("div",{className:"mb-12 bg-gray-900 text-white rounded-xl p-6 sm:px-8 shadow-lg flex flex-col md:flex-row items-center justify-between gap-6",children:[
